@@ -1,0 +1,272 @@
+{
+    "music.menu": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/01",
+                "stream": true
+            },
+            {
+                "name": "music/02",
+                "stream": true
+            },
+            {
+                "name": "music/06",
+                "stream": true
+            },
+            {
+                "name": "music/09",
+                "stream": true
+            },
+            {
+                "name": "music/14",
+                "stream": true
+            }
+        ]
+    },
+    "music.game": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/02",
+                "stream": true
+            },
+            {
+                "name": "music/06",
+                "stream": true
+            },
+            {
+                "name": "music/07",
+                "stream": true
+            },
+            {
+                "name": "music/09",
+                "stream": true
+            },
+            {
+                "name": "music/10",
+                "stream": true
+            },
+            {
+                "name": "music/14",
+                "stream": true
+            },
+            {
+                "name": "music/15",
+                "stream": true
+            }
+        ]
+    },
+    "music.creative": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/02",
+                "stream": true
+            },
+            {
+                "name": "music/06",
+                "stream": true
+            },
+            {
+                "name": "music/07",
+                "stream": true
+            },
+            {
+                "name": "music/09",
+                "stream": true
+            },
+            {
+                "name": "music/10",
+                "stream": true
+            },
+            {
+                "name": "music/14",
+                "stream": true
+            },
+            {
+                "name": "music/15",
+                "stream": true
+            }
+        ]
+    },
+    "music.end": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/04",
+                "stream": true
+            },
+            {
+                "name": "music/13",
+                "stream": true
+            }
+        ]
+    },
+    "music.dragon": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/08",
+                "stream": true
+            }
+        ]
+    },
+    "music.credits": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/01",
+                "stream": true
+            }
+        ]
+    },
+    "music.nether.soul_sand_valley": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/03",
+                "stream": true
+            },
+            {
+                "name": "music/11",
+                "stream": true
+            },
+            {
+                "name": "music/05",
+                "stream": true
+            }
+        ]
+    },
+    "music.nether.crimson_forest": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/03",
+                "stream": true
+            },
+            {
+                "name": "music/11",
+                "stream": true
+            },
+            {
+                "name": "music/05",
+                "stream": true
+            }
+        ]
+    },
+    "music.nether.warped_forest": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/03",
+                "stream": true
+            },
+            {
+                "name": "music/11",
+                "stream": true
+            },
+            {
+                "name": "music/05",
+                "stream": true
+            }
+        ]
+    },
+    "music.nether.nether_wastes": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/03",
+                "stream": true
+            },
+            {
+                "name": "music/11",
+                "stream": true
+            },
+            {
+                "name": "music/05",
+                "stream": true
+            }
+        ]
+    },
+    "music.nether.basalt_deltas": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/03",
+                "stream": true
+            },
+            {
+                "name": "music/11",
+                "stream": true
+            },
+            {
+                "name": "music/05",
+                "stream": true
+            }
+        ]
+    },
+    "music.overworld.deep_dark": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/03",
+                "stream": true
+            },
+            {
+                "name": "music/11",
+                "stream": true
+            },
+            {
+                "name": "music/05",
+                "stream": true
+            }
+        ]
+    },
+    "music.overworld.swamp": {
+        "category": "music",
+        "replace": true,
+        "sounds": [
+            {
+                "name": "music/02",
+                "stream": true
+            },
+            {
+                "name": "music/06",
+                "stream": true
+            },
+            {
+                "name": "music/07",
+                "stream": true
+            },
+            {
+                "name": "music/09",
+                "stream": true
+            },
+            {
+                "name": "music/10",
+                "stream": true
+            },
+            {
+                "name": "music/14",
+                "stream": true
+            },
+            {
+                "name": "music/15",
+                "stream": true
+            }
+        ]
+    }
+}
