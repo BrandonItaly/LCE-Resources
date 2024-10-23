@@ -22,7 +22,7 @@ void main() {
         discard;
     }
 
-    if (vertexDistance > 300.0) {
+    if (vertexDistance > 200.0) {
         ivec3 intColor = ivec3(color.rgb * 255.0);
 
         if (intColor == ivec3(0, 0, 0)) {
