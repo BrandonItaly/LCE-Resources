@@ -7,7 +7,8 @@
     "resourceAlbum": "toy_story",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/toy_story.mcsave?checksum=e1a31e550dd8b81389fc90eadfe7c179",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "Steven Universe World" },
@@ -17,7 +18,8 @@
     "resourceAlbum": "steven_uni",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/steven_universe.mcsave?checksum=351ba08c9f1d3791c7ffc5866a565d98",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "The Nightmare Before Christmas World" },
@@ -27,7 +29,8 @@
     "resourceAlbum": "nightmare",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/nightmare_before_christmas.mcsave?checksum=3bd29bc584f7a31c7127a06754d48fd9",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "Pirates Of The Caribbean World" },
@@ -37,7 +40,8 @@
     "resourceAlbum": "caribbean",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/pirates_of_the_caribbean.mcsave?checksum=18d491408f3df57526e6b1a052f86718",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "Egyptian Mythology World" },
@@ -47,7 +51,8 @@
     "resourceAlbum": "egyptian",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/egyptian_mythology.mcsave?checksum=378dccb619bfd77d001bf9a88618baff",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "Norse Mythology World" },
@@ -57,7 +62,8 @@
     "resourceAlbum": "norse",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/norse_mythology.mcsave?checksum=63085778432539e14ffebf31a38e26c1",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "Festive World" },
@@ -67,7 +73,8 @@
     "resourceAlbum": "festive",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/festive.mcsave?checksum=99a86ba1ef6a2292da353f6b2481ab78",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "Chinese Mythology World" },
@@ -77,7 +84,8 @@
     "resourceAlbum": "chinese",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/chinese_mythology.mcsave?checksum=d08aa15ada2e010886e4244994e3a8ee",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "Greek Mythology World" },
@@ -87,7 +95,8 @@
     "resourceAlbum": "greek",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/greek_mythology.mcsave?checksum=144f6c18454000b512bf68b6d98390aa",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "Adventure Time" },
@@ -97,7 +106,8 @@
     "resourceAlbum": "adv_time",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/adventure_time.mcsave?checksum=c8977d327c6907384338ee4781687c43",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "Fallout World" },
@@ -107,7 +117,8 @@
     "resourceAlbum": "fallout",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/fallout.mcsave?checksum=fa4962ee700c104d664b976eab73c305",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "Skyrim World" },
@@ -117,7 +128,8 @@
     "resourceAlbum": "dragonborn",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/skyrim.mcsave?checksum=a9f53fca6d74a609bec54d6febf6ec3d",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "Mass Effect World" },
@@ -127,7 +139,8 @@
     "resourceAlbum": "n7",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/mass_effect.mcsave?checksum=ab591369b76163ed97f56c05e3f81ffc",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "LittleBigPlanet World" },
@@ -137,7 +150,8 @@
     "resourceAlbum": "sackboy",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/littlebigplanet.mcsave?checksum=03e9e06ff9792cc971cb44cdbbdab9a7",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": {"text": "Super Mario World"},
@@ -147,7 +161,8 @@
     "resourceAlbum": "super_mario",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/super_mario.mcsave?checksum=ea30bcbf32ff177d08dd73bc319a5ace",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   },
   {
     "buttonMessage": { "text": "Halloween World" },
@@ -157,7 +172,8 @@
     "resourceAlbum": "halloween",
     "isGamePath": true,
     "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/halloween.mcsave?checksum=290889920a6e785f0c232abf4fb3fec0",
-    "directJoin": false
+    "directJoin": false,
+    "isLocked": true
   }
   // {
   //   "buttonMessage": {"text": "Halo World"},
@@ -167,6 +183,7 @@
   //   "resourceAlbum": "master_chief",
   //   "isGamePath": true,
   //   "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/halo.mcsave?checksum=985371600e4e8fe210d3c2868ea578f5",
-  //   "directJoin": false
+  //   "directJoin": false,
+  //   "isLocked": true
   // },
 ]
