@@ -108,7 +108,6 @@ jobs:
           # Format: project-slug | type (required, optional, incompatible, embedded)
           dependencies: |
             legacy4j(optional)
-            minimega(optional)
             raised(optional)
             entity-model-features(optional)
             entitytexturefeatures(optional)
