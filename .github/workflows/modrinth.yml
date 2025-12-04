@@ -103,6 +103,15 @@ jobs:
           
           # Since this is a resource pack, the loader is usually just 'minecraft'
           loaders: minecraft
+
+          # Dependencies (optional)
+          # Format: project-slug | type (required, optional, incompatible, embedded)
+          dependencies: |
+            legacy4j | optional
+            minimega | optional
+            raised | optional
+            entity-model-features | optional
+            entitytexturefeatures | optional
           
           # Update these to match the Minecraft versions you support
           game-versions: |
