@@ -36,8 +36,4 @@ const vec3 title_text_color = vec3(0.63, 1, 1);
 
 const vec3 body_text_color = vec3(1, 1, 0.68);
 
-const vec3 beacon_power_title_text_color = vec3(1, 1, 0.68);
-
 const vec3 experience_text_color = vec3(0.5, 1, 0);
-
-const vec3 experience_text_color_shadow = vec3(0, 0, 0);
