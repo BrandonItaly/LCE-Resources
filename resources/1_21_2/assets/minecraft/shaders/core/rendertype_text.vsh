@@ -17,7 +17,7 @@ out float vertexDistance;
 out vec4 vertexColor;
 out vec2 texCoord0;
 
-#moj_import <minecraft:text_effects_utils.glsl>
+#moj_import <minecraft:text_colors_utils.glsl>
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
@@ -26,5 +26,7 @@ void main() {
     vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
     texCoord0 = UV0;
 
-    applyTextColors();
+    if (vertexDistance > 50.0) {
+        applyTextColors();
+    }
 }

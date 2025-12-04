@@ -1,13 +1,14 @@
 #version 150
 
-#moj_import <minecraft:globals.glsl>
-#moj_import <color_scheme.glsl>
+#moj_import <color_overrides.glsl>
+
+uniform float GameTime;
 
 precision highp float;
 
 #define finalize() { \
-    sphericalVertexDistance=length((ModelViewMat*vertex).xyz); \
-    cylindricalVertexDistance=length((ModelViewMat*vertex).xyz); \
+    vertexDistance=length((ModelViewMat*vertex).xyz); \
+    texCoord0=UV0; \
 }
 
 void applyProjection(inout vec4 vertex) {

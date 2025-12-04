@@ -16,7 +16,7 @@ out float cylindricalVertexDistance;
 out vec4 vertexColor;
 out vec2 texCoord0;
 
-#moj_import <minecraft:text_effects_utils.glsl>
+#moj_import <minecraft:text_colors_utils.glsl>
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
