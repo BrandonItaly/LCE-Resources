@@ -105,13 +105,14 @@ jobs:
           loaders: minecraft
 
           # Dependencies (optional)
-          # Format: project-slug | type (required, optional, incompatible, embedded)
           dependencies: |
-            legacy4j | optional
-            minimega | optional
-            raised | optional
-            entity-model-features | optional
-            entitytexturefeatures | optional
+            [
+              {"project_id": "legacy4j", "dependency_type": "optional"},
+              {"project_id": "minimega", "dependency_type": "optional"},
+              {"project_id": "raised", "dependency_type": "optional"},
+              {"project_id": "entity-model-features", "dependency_type": "optional"},
+              {"project_id": "entitytexturefeatures", "dependency_type": "optional"}
+            ]
           
           # Update these to match the Minecraft versions you support
           game-versions: |
