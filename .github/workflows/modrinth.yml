@@ -65,10 +65,16 @@ jobs:
           if [ "$IS_ARRAY" != "yes" ]; then
             echo "Defaulting to 1.0.0"
             echo "VERSION=1.0.0" >> $GITHUB_OUTPUT
+            echo "DEPENDENCIES=[]" >> $GITHUB_OUTPUT
             exit 0
           fi
 
           LATEST_VERSION=$(echo "$VERSION_RESP" | jq -r '.[0].version_number')
+          
+          # Extract dependencies from the latest version (ID and type only)
+          DEPENDENCIES=$(echo "$VERSION_RESP" | jq -c '.[0].dependencies | map({project_id, dependency_type}) // []')
+          echo "DEPENDENCIES=$DEPENDENCIES" >> $GITHUB_OUTPUT
+          echo "Found dependencies: $DEPENDENCIES"
           
           if [ "$LATEST_VERSION" == "null" ] || [ -z "$LATEST_VERSION" ]; then
             echo "No previous versions found. Defaulting to 1.0.0"
@@ -104,15 +110,8 @@ jobs:
           # Since this is a resource pack, the loader is usually just 'minecraft'
           loaders: minecraft
 
-          # Dependencies (optional)
-          dependencies: |
-            [
-              {"project_id": "legacy4j", "dependency_type": "optional"},
-              {"project_id": "minimega", "dependency_type": "optional"},
-              {"project_id": "raised", "dependency_type": "optional"},
-              {"project_id": "entity-model-features", "dependency_type": "optional"},
-              {"project_id": "entitytexturefeatures", "dependency_type": "optional"}
-            ]
+          # Dependencies (automatically fetched from previous version)
+          dependencies: ${{ steps.details.outputs.DEPENDENCIES }}
           
           # Update these to match the Minecraft versions you support
           game-versions: |
