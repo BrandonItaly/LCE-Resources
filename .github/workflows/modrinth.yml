@@ -42,8 +42,8 @@ jobs:
             echo "Warning: Could not fetch project title. Defaulting to 'ResourcePack'."
             SAFE_NAME="ResourcePack"
           else
-            # Sanitize: keep alphanumeric, dots, underscores, dashes, and spaces.
-            SAFE_NAME=$(echo "$TITLE" | sed -e 's/[^A-Za-z0-9._- ]/ /g' | xargs)
+            # Sanitize: keep alphanumeric, dots, underscores, dashes. Replace spaces with dashes.
+            SAFE_NAME=$(echo "$TITLE" | sed -e 's/[^A-Za-z0-9._-]/ /g' | xargs | sed 's/ /-/g')
           fi
           echo "PROJECT_NAME=$SAFE_NAME" >> $GITHUB_OUTPUT
           echo "Using filename base: $SAFE_NAME"
@@ -85,7 +85,7 @@ jobs:
         # Zips the contents of the 'resources' folder into a zip file in the root
         run: |
           cd resources
-          zip -r "../${{ steps.details.outputs.PROJECT_NAME }}.zip" .
+          zip -r ../${{ steps.details.outputs.PROJECT_NAME }}.zip .
 
       - name: Process Changelog
         id: changelog
@@ -104,7 +104,7 @@ jobs:
           # You must add this secret in your GitHub Repo Settings > Secrets and variables > Actions
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           
-          files: "${{ steps.details.outputs.PROJECT_NAME }}.zip"
+          files: ${{ steps.details.outputs.PROJECT_NAME }}.zip
           name: "${{ steps.details.outputs.VERSION }}"
           version: ${{ steps.details.outputs.VERSION }}
           version-type: ${{ inputs.type }}
