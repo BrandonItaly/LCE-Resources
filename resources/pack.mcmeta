@@ -1,0 +1,59 @@
+{
+  "pack": {
+    "name": "Greek Mythology Mash-up",
+    "description": "Build a pantheon fit for the gods, trap the Minotaur in an elaborate maze, or set sail for adventures across the sea – the world is your square oyster!",
+    "min_format": 42,
+    "max_format": 69,
+    "pack_format": 69,
+    "supported_formats": {
+      "min_inclusive": 42,
+      "max_inclusive": 69
+    }
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "1_21_2",
+        "min_format": 42,
+        "max_format": 69,
+        "formats": [
+          42,
+          69
+        ]
+      },
+      {
+        "directory": "1_21_5",
+        "min_format": 55,
+        "max_format": 69,
+        "formats": [
+          55,
+          69
+        ]
+      },
+      {
+        "directory": "1_21_6",
+        "min_format": 63,
+        "max_format": 69,
+        "formats": [
+          63,
+          69
+        ]
+      },
+      {
+        "directory": "1_21_9",
+        "min_format": 69,
+        "max_format": 69,
+        "formats": [
+          69,
+          69
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "converted_from": "bedrock",
+    "conversion_date": "2025-12-06T09:40:22.455Z",
+    "original_uuid": "98330b0a-2c79-4d30-b9c8-136098340edc",
+    "original_version": "1.0.75"
+  }
+}

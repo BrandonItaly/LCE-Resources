@@ -1,0 +1,135 @@
+name: Publish to Modrinth
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version Number (leave empty to auto-increment)'
+        required: false
+      type:
+        description: 'Release Type'
+        required: true
+        default: 'release'
+        type: choice
+        options:
+          - release
+          - beta
+          - alpha
+      changelog:
+        description: 'Changelog (Markdown supported, use \n for newlines)'
+        required: false
+
+env:
+  # Replace with your actual Modrinth Project ID (found in project settings)
+  MODRINTH_PROJECT_ID: WtfCCeNe
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Get Project Details
+        id: details
+        run: |
+          # 1. Get Project Title for Filename
+          echo "Fetching project metadata..."
+          PROJECT_RESP=$(curl -s "https://api.modrinth.com/v2/project/${{ env.MODRINTH_PROJECT_ID }}")
+          TITLE=$(echo "$PROJECT_RESP" | jq -r '.title')
+          
+          if [ "$TITLE" == "null" ] || [ -z "$TITLE" ]; then
+            echo "Warning: Could not fetch project title. Defaulting to 'ResourcePack'."
+            SAFE_NAME="ResourcePack"
+          else
+            # Sanitize: keep alphanumeric, dots, underscores, dashes. Replace spaces with dashes.
+            SAFE_NAME=$(echo "$TITLE" | sed -e 's/[^A-Za-z0-9._-]/ /g' | xargs | sed 's/ /-/g')
+          fi
+          echo "PROJECT_NAME=$SAFE_NAME" >> $GITHUB_OUTPUT
+          echo "Using filename base: $SAFE_NAME"
+
+          # 2. Calculate Version
+          # If manual version is provided, use it
+          if [ -n "${{ inputs.version }}" ]; then
+            echo "VERSION=${{ inputs.version }}" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Fetch latest version from Modrinth API
+          echo "Fetching latest version..."
+          VERSION_RESP=$(curl -s "https://api.modrinth.com/v2/project/${{ env.MODRINTH_PROJECT_ID }}/version")
+          
+          # Check if we got a valid response (array)
+          IS_ARRAY=$(echo "$VERSION_RESP" | jq -r 'if type=="array" then "yes" else "no" end')
+          
+          if [ "$IS_ARRAY" != "yes" ]; then
+            echo "Defaulting to 1.0.0"
+            echo "VERSION=1.0.0" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          LATEST_VERSION=$(echo "$VERSION_RESP" | jq -r '.[0].version_number')
+          
+          if [ "$LATEST_VERSION" == "null" ] || [ -z "$LATEST_VERSION" ]; then
+            echo "No previous versions found. Defaulting to 1.0.0"
+            echo "VERSION=1.0.0" >> $GITHUB_OUTPUT
+          else
+            echo "Latest version is $LATEST_VERSION"
+            # Increment patch version (e.g. 1.0.0 -> 1.0.1)
+            NEW_VERSION=$(echo $LATEST_VERSION | awk -F. -v OFS=. '{$NF+=1;print}')
+            echo "Calculated new version: $NEW_VERSION"
+            echo "VERSION=$NEW_VERSION" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Resource Pack Zip
+        # Zips the contents of the 'resources' folder into a zip file in the root
+        run: |
+          cd resources
+          zip -r ../${{ steps.details.outputs.PROJECT_NAME }}.zip .
+
+      - name: Process Changelog
+        id: changelog
+        env:
+          LOG_INPUT: ${{ inputs.changelog }}
+        run: |
+          echo "CLEAN_LOG<<EOF" >> $GITHUB_OUTPUT
+          echo -e "$LOG_INPUT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Publish to Modrinth
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: ${{ env.MODRINTH_PROJECT_ID }}
+          
+          # You must add this secret in your GitHub Repo Settings > Secrets and variables > Actions
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          
+          files: ${{ steps.details.outputs.PROJECT_NAME }}.zip
+          name: "${{ steps.details.outputs.VERSION }}"
+          version: ${{ steps.details.outputs.VERSION }}
+          version-type: ${{ inputs.type }}
+          changelog: ${{ steps.changelog.outputs.CLEAN_LOG }}
+          
+          # Since this is a resource pack, the loader is usually just 'minecraft'
+          loaders: minecraft
+
+          # Dependencies (optional)
+          # Format: project-slug | type (required, optional, incompatible, embedded)
+          dependencies: |
+            transparency-fix(required)
+            legacy4j(optional)
+            raised(optional)
+            entity-model-features(optional)
+            entitytexturefeatures(optional)
+          
+          # Update these to match the Minecraft versions you support
+          game-versions: |
+            1.21.2
+            1.21.3
+            1.21.4
+            1.21.5
+            1.21.6
+            1.21.7
+            1.21.8
+            1.21.9
+            1.21.10
