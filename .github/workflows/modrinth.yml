@@ -116,6 +116,7 @@ jobs:
           # Dependencies (optional)
           # Format: project-slug | type (required, optional, incompatible, embedded)
           dependencies: |
+            transparency-fix(required)
             legacy4j(optional)
             raised(optional)
             entity-model-features(optional)
