@@ -115,6 +115,16 @@
       }
     ]
   },
+  "music.dragon": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/08_ares_-_god_of_war_the_end",
+        "stream": true
+      }
+    ]
+  },
   "music.end": {
     "category": "music",
     "replace": true,
@@ -129,12 +139,38 @@
       }
     ]
   },
-  "music.dragon": {
+  "music.credits": {
     "category": "music",
     "replace": true,
     "sounds": [
       {
-        "name": "music/08_ares_-_god_of_war_the_end",
+        "name": "music/01_seikilos_epitaph_-_feat._aeralie_brighton",
+        "stream": true
+      }
+    ]
+  },
+  "music.menu": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/01_seikilos_epitaph_-_feat._aeralie_brighton",
+        "stream": true
+      },
+      {
+        "name": "music/02_demeter_-_god_of_farming_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/06_apollo_-_god_of_music_and_the_lyre_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/09_poseidon_-_god_of_the_sea_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/14_hestia_-_goddess_of_the_hearth_overworld",
         "stream": true
       }
     ]
@@ -261,42 +297,6 @@
       },
       {
         "name": "music/05_hades_persephone_-_gods_of_the_underworld_nether",
-        "stream": true
-      }
-    ]
-  },
-  "music.credits": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/01_seikilos_epitaph_-_feat._aeralie_brighton",
-        "stream": true
-      }
-    ]
-  },
-  "music.menu": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/01_seikilos_epitaph_-_feat._aeralie_brighton",
-        "stream": true
-      },
-      {
-        "name": "music/02_demeter_-_god_of_farming_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/06_apollo_-_god_of_music_and_the_lyre_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/09_poseidon_-_god_of_the_sea_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/14_hestia_-_goddess_of_the_hearth_overworld",
         "stream": true
       }
     ]
