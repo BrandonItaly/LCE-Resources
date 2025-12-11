@@ -3,11 +3,11 @@
     "name": "Plastic Texture Pack",
     "description": "Make your worlds simple, colorful and vibrant!",
     "min_format": 42,
-    "max_format": 69,
-    "pack_format": 69,
+    "max_format": 75,
+    "pack_format": 75,
     "supported_formats": {
       "min_inclusive": 42,
-      "max_inclusive": 69
+      "max_inclusive": 75
     }
   },
   "overlays": {
@@ -15,45 +15,45 @@
       {
         "directory": "1_21_2",
         "min_format": 42,
-        "max_format": 69,
+        "max_format": 75,
         "formats": [
           42,
-          69
+          75
         ]
       },
       {
         "directory": "1_21_5",
         "min_format": 55,
-        "max_format": 69,
+        "max_format": 75,
         "formats": [
           55,
-          69
+          75
         ]
       },
       {
         "directory": "1_21_6",
         "min_format": 63,
-        "max_format": 69,
+        "max_format": 75,
         "formats": [
           63,
-          69
+          75
         ]
       },
       {
         "directory": "1_21_9",
         "min_format": 69,
-        "max_format": 69,
+        "max_format": 75,
         "formats": [
           69,
-          69
+          75
         ]
       }
     ]
   },
   "meta": {
     "converted_from": "bedrock",
-    "conversion_date": "2025-12-04T06:44:08.059Z",
+    "conversion_date": "2025-12-11T07:11:29.402Z",
     "original_uuid": "123dd57a-226f-4895-a1bc-b3b69d3f44dd",
-    "original_version": "1.0.77"
+    "original_version": "1.0.79"
   }
 }
