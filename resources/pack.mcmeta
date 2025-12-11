@@ -3,11 +3,11 @@
     "name": "Natural Texture Pack",
     "description": "Designed to give your Minecraft worlds a more natural look.",
     "min_format": 42,
-    "max_format": 69,
-    "pack_format": 69,
+    "max_format": 75,
+    "pack_format": 75,
     "supported_formats": {
       "min_inclusive": 42,
-      "max_inclusive": 69
+      "max_inclusive": 75
     }
   },
   "overlays": {
@@ -15,45 +15,45 @@
       {
         "directory": "1_21_2",
         "min_format": 42,
-        "max_format": 69,
+        "max_format": 75,
         "formats": [
           42,
-          69
+          75
         ]
       },
       {
         "directory": "1_21_5",
         "min_format": 55,
-        "max_format": 69,
+        "max_format": 75,
         "formats": [
           55,
-          69
+          75
         ]
       },
       {
         "directory": "1_21_6",
         "min_format": 63,
-        "max_format": 69,
+        "max_format": 75,
         "formats": [
           63,
-          69
+          75
         ]
       },
       {
         "directory": "1_21_9",
         "min_format": 69,
-        "max_format": 69,
+        "max_format": 75,
         "formats": [
           69,
-          69
+          75
         ]
       }
     ]
   },
   "meta": {
     "converted_from": "bedrock",
-    "conversion_date": "2025-12-04T06:56:19.107Z",
+    "conversion_date": "2025-12-11T07:10:15.790Z",
     "original_uuid": "951491d0-28fe-46c8-aefb-d61c4dd8cb25",
-    "original_version": "1.0.78"
+    "original_version": "1.0.80"
   }
 }
