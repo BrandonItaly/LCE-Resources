@@ -39,16 +39,6 @@
       }
     ]
   },
-  "music.dragon": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/13_terracotta_army_the_end",
-        "stream": true
-      }
-    ]
-  },
   "music.creative": {
     "category": "music",
     "replace": true,
@@ -63,6 +53,34 @@
       },
       {
         "name": "music/17_danxia_rainbow_mountains_overworld",
+        "stream": true
+      }
+    ]
+  },
+  "music.dragon": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/13_terracotta_army_the_end",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/07_hotan_ruins_nether",
+        "stream": true
+      },
+      {
+        "name": "music/08_maijishan_grotto_nether",
+        "stream": true
+      },
+      {
+        "name": "music/14_tsaparang_nether",
         "stream": true
       }
     ]
@@ -85,24 +103,6 @@
       },
       {
         "name": "music/12_sha_wujing_battle",
-        "stream": true
-      }
-    ]
-  },
-  "music.nether": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/07_hotan_ruins_nether",
-        "stream": true
-      },
-      {
-        "name": "music/08_maijishan_grotto_nether",
-        "stream": true
-      },
-      {
-        "name": "music/14_tsaparang_nether",
         "stream": true
       }
     ]
