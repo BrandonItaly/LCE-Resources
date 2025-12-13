@@ -29,16 +29,6 @@
       }
     ]
   },
-  "music.dragon": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/hthe_end",
-        "stream": true
-      }
-    ]
-  },
   "music.game": {
     "category": "music",
     "replace": true,
@@ -107,6 +97,16 @@
       },
       {
         "name": "music/h3",
+        "stream": true
+      }
+    ]
+  },
+  "music.dragon": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/hthe_end",
         "stream": true
       }
     ]
