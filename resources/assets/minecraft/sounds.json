@@ -13,6 +13,30 @@
       }
     ]
   },
+  "music.dragon": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/08_ares_-_god_of_war_the_end",
+        "stream": true
+      }
+    ]
+  },
+  "music.end": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/04_lelantos_-_god_of_moving_unseen_battle",
+        "stream": true
+      },
+      {
+        "name": "music/13_britomartis_-_goddess_of_the_hunt_battle",
+        "stream": true
+      }
+    ]
+  },
   "music.game": {
     "category": "music",
     "replace": true,
@@ -111,30 +135,6 @@
       },
       {
         "name": "music/15_aphrodite_-_goddess_of_love_overworld",
-        "stream": true
-      }
-    ]
-  },
-  "music.dragon": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/08_ares_-_god_of_war_the_end",
-        "stream": true
-      }
-    ]
-  },
-  "music.end": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/04_lelantos_-_god_of_moving_unseen_battle",
-        "stream": true
-      },
-      {
-        "name": "music/13_britomartis_-_goddess_of_the_hunt_battle",
         "stream": true
       }
     ]
