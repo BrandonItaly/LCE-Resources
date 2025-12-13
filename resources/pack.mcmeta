@@ -2,16 +2,25 @@
   "pack": {
     "name": "City Texture Pack",
     "description": "Free your inner architect and shape the world around you.",
-    "min_format": 42,
+    "min_format": 18,
     "max_format": 75,
     "pack_format": 75,
     "supported_formats": {
-      "min_inclusive": 42,
+      "min_inclusive": 18,
       "max_inclusive": 75
     }
   },
   "overlays": {
     "entries": [
+      {
+        "directory": "1_20_2",
+        "min_format": 18,
+        "max_format": 75,
+        "formats": [
+          18,
+          75
+        ]
+      },
       {
         "directory": "1_21_2",
         "min_format": 42,
@@ -52,7 +61,7 @@
   },
   "meta": {
     "converted_from": "bedrock",
-    "conversion_date": "2025-12-11T07:13:26.975Z",
+    "conversion_date": "2025-12-13T08:38:45.638Z",
     "original_uuid": "69afd52e-1e29-4617-81a9-44ce1157ce8a",
     "original_version": "1.0.78"
   }
