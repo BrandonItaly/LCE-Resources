@@ -9,34 +9,6 @@
       }
     ]
   },
-  "music.game": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/flake",
-        "stream": true
-      },
-      {
-        "name": "music/kyoto",
-        "stream": true
-      }
-    ]
-  },
-  "music.creative": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/flake",
-        "stream": true
-      },
-      {
-        "name": "music/kyoto",
-        "stream": true
-      }
-    ]
-  },
   "music.nether": {
     "category": "music",
     "replace": true,
@@ -77,6 +49,34 @@
     "sounds": [
       {
         "name": "music/xmas_the_end",
+        "stream": true
+      }
+    ]
+  },
+  "music.game": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/flake",
+        "stream": true
+      },
+      {
+        "name": "music/kyoto",
+        "stream": true
+      }
+    ]
+  },
+  "music.creative": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/flake",
+        "stream": true
+      },
+      {
+        "name": "music/kyoto",
         "stream": true
       }
     ]

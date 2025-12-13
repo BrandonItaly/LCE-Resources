@@ -2,57 +2,66 @@
   "pack": {
     "name": "Festive",
     "description": "Wander through a winter wonderland! World, textures, skins and more!",
-    "min_format": 42,
-    "max_format": 69,
-    "pack_format": 69,
+    "min_format": 18,
+    "max_format": 75,
+    "pack_format": 75,
     "supported_formats": {
-      "min_inclusive": 42,
-      "max_inclusive": 69
+      "min_inclusive": 18,
+      "max_inclusive": 75
     }
   },
   "overlays": {
     "entries": [
       {
+        "directory": "1_20_2",
+        "min_format": 18,
+        "max_format": 75,
+        "formats": [
+          18,
+          75
+        ]
+      },
+      {
         "directory": "1_21_2",
         "min_format": 42,
-        "max_format": 69,
+        "max_format": 75,
         "formats": [
           42,
-          69
+          75
         ]
       },
       {
         "directory": "1_21_5",
         "min_format": 55,
-        "max_format": 69,
+        "max_format": 75,
         "formats": [
           55,
-          69
+          75
         ]
       },
       {
         "directory": "1_21_6",
         "min_format": 63,
-        "max_format": 69,
+        "max_format": 75,
         "formats": [
           63,
-          69
+          75
         ]
       },
       {
         "directory": "1_21_9",
         "min_format": 69,
-        "max_format": 69,
+        "max_format": 75,
         "formats": [
           69,
-          69
+          75
         ]
       }
     ]
   },
   "meta": {
     "converted_from": "bedrock",
-    "conversion_date": "2025-12-06T05:49:07.289Z",
+    "conversion_date": "2025-12-13T08:50:37.226Z",
     "original_uuid": "ce292d20-42e1-4873-a721-06507dbd54d4",
     "original_version": "1.0.56"
   }
