@@ -1,4 +1,46 @@
 {
+  "music.end": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/egyptiantheend1",
+        "stream": true
+      }
+    ]
+  },
+  "music.dragon": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/egyptiantheend1",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/egyptiannether1",
+        "stream": true
+      },
+      {
+        "name": "music/egyptiannether2",
+        "stream": true
+      },
+      {
+        "name": "music/egyptiannether3",
+        "stream": true
+      },
+      {
+        "name": "music/egyptiannether4",
+        "stream": true
+      }
+    ]
+  },
   "music.credits": {
     "category": "music",
     "replace": true,
@@ -89,48 +131,6 @@
       },
       {
         "name": "music/egyptianoverworld9",
-        "stream": true
-      }
-    ]
-  },
-  "music.end": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/egyptiantheend1",
-        "stream": true
-      }
-    ]
-  },
-  "music.dragon": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/egyptiantheend1",
-        "stream": true
-      }
-    ]
-  },
-  "music.nether": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/egyptiannether1",
-        "stream": true
-      },
-      {
-        "name": "music/egyptiannether2",
-        "stream": true
-      },
-      {
-        "name": "music/egyptiannether3",
-        "stream": true
-      },
-      {
-        "name": "music/egyptiannether4",
         "stream": true
       }
     ]
