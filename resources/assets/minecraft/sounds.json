@@ -1,14 +1,44 @@
 {
-  "music.under_water": {
+  "music.creative": {
     "category": "music",
     "replace": true,
     "sounds": [
+      {
+        "name": "music/02_demeter_-_god_of_farming_overworld",
+        "stream": true
+      },
       {
         "name": "music/06_apollo_-_god_of_music_and_the_lyre_overworld",
         "stream": true
       },
       {
+        "name": "music/07_zeus_hera_-_king_and_queen_of_the_gods_overworld",
+        "stream": true
+      },
+      {
         "name": "music/09_poseidon_-_god_of_the_sea_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/10_hermes_-_the_messenger_god_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/14_hestia_-_goddess_of_the_hearth_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/15_aphrodite_-_goddess_of_love_overworld",
+        "stream": true
+      }
+    ]
+  },
+  "music.credits": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/01_seikilos_epitaph_-_feat._aeralie_brighton",
         "stream": true
       }
     ]
@@ -71,84 +101,6 @@
       }
     ]
   },
-  "music.creative": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/02_demeter_-_god_of_farming_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/06_apollo_-_god_of_music_and_the_lyre_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/07_zeus_hera_-_king_and_queen_of_the_gods_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/09_poseidon_-_god_of_the_sea_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/10_hermes_-_the_messenger_god_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/14_hestia_-_goddess_of_the_hearth_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/15_aphrodite_-_goddess_of_love_overworld",
-        "stream": true
-      }
-    ]
-  },
-  "music.overworld.swamp": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/02_demeter_-_god_of_farming_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/06_apollo_-_god_of_music_and_the_lyre_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/07_zeus_hera_-_king_and_queen_of_the_gods_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/09_poseidon_-_god_of_the_sea_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/10_hermes_-_the_messenger_god_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/14_hestia_-_goddess_of_the_hearth_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/15_aphrodite_-_goddess_of_love_overworld",
-        "stream": true
-      }
-    ]
-  },
-  "music.credits": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/01_seikilos_epitaph_-_feat._aeralie_brighton",
-        "stream": true
-      }
-    ]
-  },
   "music.menu": {
     "category": "music",
     "replace": true,
@@ -193,7 +145,7 @@
       }
     ]
   },
-  "music.nether.soul_sand_valley": {
+  "music.nether.basalt_deltas": {
     "category": "music",
     "replace": true,
     "sounds": [
@@ -229,24 +181,6 @@
       }
     ]
   },
-  "music.nether.warped_forest": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/03_artemis_-_goddess_of_the_wilderness_nether",
-        "stream": true
-      },
-      {
-        "name": "music/11_hephaestus_-_god_of_the_forge_nether",
-        "stream": true
-      },
-      {
-        "name": "music/05_hades_persephone_-_gods_of_the_underworld_nether",
-        "stream": true
-      }
-    ]
-  },
   "music.nether.nether_wastes": {
     "category": "music",
     "replace": true,
@@ -265,7 +199,25 @@
       }
     ]
   },
-  "music.nether.basalt_deltas": {
+  "music.nether.soul_sand_valley": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/03_artemis_-_goddess_of_the_wilderness_nether",
+        "stream": true
+      },
+      {
+        "name": "music/11_hephaestus_-_god_of_the_forge_nether",
+        "stream": true
+      },
+      {
+        "name": "music/05_hades_persephone_-_gods_of_the_underworld_nether",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.warped_forest": {
     "category": "music",
     "replace": true,
     "sounds": [
@@ -297,6 +249,54 @@
       },
       {
         "name": "music/05_hades_persephone_-_gods_of_the_underworld_nether",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.swamp": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/02_demeter_-_god_of_farming_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/06_apollo_-_god_of_music_and_the_lyre_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/07_zeus_hera_-_king_and_queen_of_the_gods_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/09_poseidon_-_god_of_the_sea_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/10_hermes_-_the_messenger_god_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/14_hestia_-_goddess_of_the_hearth_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/15_aphrodite_-_goddess_of_love_overworld",
+        "stream": true
+      }
+    ]
+  },
+  "music.under_water": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/06_apollo_-_god_of_music_and_the_lyre_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/09_poseidon_-_god_of_the_sea_overworld",
         "stream": true
       }
     ]
