@@ -1,10 +1,18 @@
 {
-  "music.end": {
+  "music.creative": {
     "category": "music",
     "replace": true,
     "sounds": [
       {
-        "name": "music/45_solitude",
+        "name": "music/h1",
+        "stream": true
+      },
+      {
+        "name": "music/h2",
+        "stream": true
+      },
+      {
+        "name": "music/h3",
         "stream": true
       }
     ]
@@ -19,12 +27,22 @@
       }
     ]
   },
-  "music.menu": {
+  "music.dragon": {
     "category": "music",
     "replace": true,
     "sounds": [
       {
-        "name": "music/hmenu",
+        "name": "music/hthe_end",
+        "stream": true
+      }
+    ]
+  },
+  "music.end": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/45_solitude",
         "stream": true
       }
     ]
@@ -47,20 +65,110 @@
       }
     ]
   },
-  "music.creative": {
+  "music.menu": {
     "category": "music",
     "replace": true,
     "sounds": [
       {
-        "name": "music/h1",
+        "name": "music/hmenu",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/hn1",
         "stream": true
       },
       {
-        "name": "music/h2",
+        "name": "music/hn2",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.basalt_deltas": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/hn1",
         "stream": true
       },
       {
-        "name": "music/h3",
+        "name": "music/hn2",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.crimson_forest": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/hn1",
+        "stream": true
+      },
+      {
+        "name": "music/hn2",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.nether_wastes": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/hn1",
+        "stream": true
+      },
+      {
+        "name": "music/hn2",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.soul_sand_valley": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/hn1",
+        "stream": true
+      },
+      {
+        "name": "music/hn2",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.warped_forest": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/hn1",
+        "stream": true
+      },
+      {
+        "name": "music/hn2",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.deep_dark": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/hn1",
+        "stream": true
+      },
+      {
+        "name": "music/hn2",
         "stream": true
       }
     ]
@@ -97,114 +205,6 @@
       },
       {
         "name": "music/h3",
-        "stream": true
-      }
-    ]
-  },
-  "music.dragon": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/hthe_end",
-        "stream": true
-      }
-    ]
-  },
-  "music.nether": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/hn1",
-        "stream": true
-      },
-      {
-        "name": "music/hn2",
-        "stream": true
-      }
-    ]
-  },
-  "music.nether.soul_sand_valley": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/hn1",
-        "stream": true
-      },
-      {
-        "name": "music/hn2",
-        "stream": true
-      }
-    ]
-  },
-  "music.nether.crimson_forest": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/hn1",
-        "stream": true
-      },
-      {
-        "name": "music/hn2",
-        "stream": true
-      }
-    ]
-  },
-  "music.nether.warped_forest": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/hn1",
-        "stream": true
-      },
-      {
-        "name": "music/hn2",
-        "stream": true
-      }
-    ]
-  },
-  "music.nether.nether_wastes": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/hn1",
-        "stream": true
-      },
-      {
-        "name": "music/hn2",
-        "stream": true
-      }
-    ]
-  },
-  "music.nether.basalt_deltas": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/hn1",
-        "stream": true
-      },
-      {
-        "name": "music/hn2",
-        "stream": true
-      }
-    ]
-  },
-  "music.overworld.deep_dark": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/hn1",
-        "stream": true
-      },
-      {
-        "name": "music/hn2",
         "stream": true
       }
     ]
