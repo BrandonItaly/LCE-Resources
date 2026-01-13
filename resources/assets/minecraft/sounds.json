@@ -1,29 +1,19 @@
 {
-  "music.menu": {
+  "music.creative": {
     "category": "music",
     "replace": true,
     "sounds": [
       {
         "name": "music/flake",
         "stream": true
-      }
-    ]
-  },
-  "music.nether": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/xmasn1",
-        "stream": true
       },
       {
-        "name": "music/xmasn2",
+        "name": "music/kyoto",
         "stream": true
       }
     ]
   },
-  "music.end": {
+  "music.credits": {
     "category": "music",
     "replace": true,
     "sounds": [
@@ -43,7 +33,7 @@
       }
     ]
   },
-  "music.credits": {
+  "music.end": {
     "category": "music",
     "replace": true,
     "sounds": [
@@ -67,16 +57,26 @@
       }
     ]
   },
-  "music.creative": {
+  "music.menu": {
     "category": "music",
     "replace": true,
     "sounds": [
       {
         "name": "music/flake",
         "stream": true
+      }
+    ]
+  },
+  "music.nether": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/xmasn1",
+        "stream": true
       },
       {
-        "name": "music/kyoto",
+        "name": "music/xmasn2",
         "stream": true
       }
     ]
