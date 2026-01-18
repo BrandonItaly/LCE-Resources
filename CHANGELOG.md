@@ -1,0 +1,1 @@
+- Added support for [Bedrock Skins](https://modrinth.com/mod/bedrock-skins) mod
