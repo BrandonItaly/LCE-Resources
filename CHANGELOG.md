@@ -1,0 +1,2 @@
+- Added support for [Bedrock Skins](https://modrinth.com/mod/bedrock-skins) mod and added Chinese Mythology Mash-up skin pack
+- Added some textures that were missing in 1.21.11

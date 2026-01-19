@@ -1,10 +1,60 @@
 {
+  "music.creative": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/15_kunlun_mountains_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/16_mount_huaguo_overworld",
+        "stream": true
+      },
+      {
+        "name": "music/17_danxia_rainbow_mountains_overworld",
+        "stream": true
+      }
+    ]
+  },
   "music.credits": {
     "category": "music",
     "replace": true,
     "sounds": [
       {
         "name": "music/01_xuanzang",
+        "stream": true
+      }
+    ]
+  },
+  "music.dragon": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/13_terracotta_army_the_end",
+        "stream": true
+      }
+    ]
+  },
+  "music.end": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/05_sun_wukong_battle",
+        "stream": true
+      },
+      {
+        "name": "music/06_white_dragon_horse_battle",
+        "stream": true
+      },
+      {
+        "name": "music/11_zhu_baije_battle",
+        "stream": true
+      },
+      {
+        "name": "music/12_sha_wujing_battle",
         "stream": true
       }
     ]
@@ -39,34 +89,6 @@
       }
     ]
   },
-  "music.creative": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/15_kunlun_mountains_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/16_mount_huaguo_overworld",
-        "stream": true
-      },
-      {
-        "name": "music/17_danxia_rainbow_mountains_overworld",
-        "stream": true
-      }
-    ]
-  },
-  "music.dragon": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/13_terracotta_army_the_end",
-        "stream": true
-      }
-    ]
-  },
   "music.nether": {
     "category": "music",
     "replace": true,
@@ -81,28 +103,6 @@
       },
       {
         "name": "music/14_tsaparang_nether",
-        "stream": true
-      }
-    ]
-  },
-  "music.end": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/05_sun_wukong_battle",
-        "stream": true
-      },
-      {
-        "name": "music/06_white_dragon_horse_battle",
-        "stream": true
-      },
-      {
-        "name": "music/11_zhu_baije_battle",
-        "stream": true
-      },
-      {
-        "name": "music/12_sha_wujing_battle",
         "stream": true
       }
     ]
