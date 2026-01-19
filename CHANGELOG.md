@@ -1,0 +1,3 @@
+- Added support for [Bedrock Skins](https://modrinth.com/mod/bedrock-skins) mod and added Super Cute Texture Pack skin pack
+- Added some textures that were missing in 1.21.11
+- Added Day and Night Panorama for Legacy4J
