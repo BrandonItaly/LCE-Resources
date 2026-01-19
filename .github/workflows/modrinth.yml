@@ -1,4 +1,4 @@
-name: Publish to Modrinth
+name: Publish
 
 on:
   workflow_dispatch:
@@ -15,13 +15,10 @@ on:
           - release
           - beta
           - alpha
-      changelog:
-        description: 'Changelog (Markdown supported, use \n for newlines)'
-        required: false
 
 env:
-  # Replace with your actual Modrinth Project ID (found in project settings)
   MODRINTH_PROJECT_ID: 1Ee44YG5
+  CURSEFORGE_PROJECT_ID: 1436057
 
 jobs:
   publish:
@@ -87,21 +84,10 @@ jobs:
           cd resources
           zip -r "../${{ steps.details.outputs.PROJECT_NAME }}.zip" .
 
-      - name: Process Changelog
-        id: changelog
-        env:
-          LOG_INPUT: ${{ inputs.changelog }}
-        run: |
-          echo "CLEAN_LOG<<EOF" >> $GITHUB_OUTPUT
-          echo -e "$LOG_INPUT" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-
       - name: Publish to Modrinth
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           modrinth-id: ${{ env.MODRINTH_PROJECT_ID }}
-          
-          # You must add this secret in your GitHub Repo Settings > Secrets and variables > Actions
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           
           files: |
@@ -109,7 +95,7 @@ jobs:
           name: "${{ steps.details.outputs.VERSION }}"
           version: ${{ steps.details.outputs.VERSION }}
           version-type: ${{ inputs.type }}
-          changelog: ${{ steps.changelog.outputs.CLEAN_LOG }}
+          changelog-file: CHANGELOG.md
           
           # Since this is a resource pack, the loader is usually just 'minecraft'
           loaders: minecraft
@@ -117,12 +103,34 @@ jobs:
           # Dependencies (optional)
           # Format: project-slug | type (required, optional, incompatible, embedded)
           dependencies: |
-            transparency-fix(required)
+            transparency-fix(optional)
+            bedrock-skins(optional)
             legacy4j(optional)
             raised(optional)
             entity-model-features(optional)
             entitytexturefeatures(optional)
           
           # Update these to match the Minecraft versions you support
+          game-versions: |
+            >=1.20.2
+
+      - name: Publish to CurseForge
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          curseforge-id: ${{ env.CURSEFORGE_PROJECT_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          files: |
+            ${{ steps.details.outputs.PROJECT_NAME }}.zip
+          name: "${{ steps.details.outputs.VERSION }}"
+          version: ${{ steps.details.outputs.VERSION }}
+          version-type: ${{ inputs.type }}
+          changelog-file: CHANGELOG.md
+          loaders: minecraft
+          dependencies: |
+            bedrock-skins(optional)
+            legacy4j(optional)
+            raised(optional)
+            entity-model-features(optional)
+            entity-texture-features-fabric(optional)
           game-versions: |
             >=1.20.2

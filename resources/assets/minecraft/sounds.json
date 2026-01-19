@@ -1,10 +1,52 @@
 {
-  "music.end": {
+  "music.creative": {
     "category": "music",
     "replace": true,
     "sounds": [
       {
-        "name": "music/egyptiantheend1",
+        "name": "music/egyptianoverworld1",
+        "stream": true
+      },
+      {
+        "name": "music/egyptianoverworld2",
+        "stream": true
+      },
+      {
+        "name": "music/egyptianoverworld3",
+        "stream": true
+      },
+      {
+        "name": "music/egyptianoverworld4",
+        "stream": true
+      },
+      {
+        "name": "music/egyptianoverworld5",
+        "stream": true
+      },
+      {
+        "name": "music/egyptianoverworld6",
+        "stream": true
+      },
+      {
+        "name": "music/egyptianoverworld7",
+        "stream": true
+      },
+      {
+        "name": "music/egyptianoverworld8",
+        "stream": true
+      },
+      {
+        "name": "music/egyptianoverworld9",
+        "stream": true
+      }
+    ]
+  },
+  "music.credits": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/egyptianoverworld1",
         "stream": true
       }
     ]
@@ -19,34 +61,12 @@
       }
     ]
   },
-  "music.nether": {
+  "music.end": {
     "category": "music",
     "replace": true,
     "sounds": [
       {
-        "name": "music/egyptiannether1",
-        "stream": true
-      },
-      {
-        "name": "music/egyptiannether2",
-        "stream": true
-      },
-      {
-        "name": "music/egyptiannether3",
-        "stream": true
-      },
-      {
-        "name": "music/egyptiannether4",
-        "stream": true
-      }
-    ]
-  },
-  "music.credits": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/egyptianoverworld1",
+        "name": "music/egyptiantheend1",
         "stream": true
       }
     ]
@@ -93,44 +113,24 @@
       }
     ]
   },
-  "music.creative": {
+  "music.nether": {
     "category": "music",
     "replace": true,
     "sounds": [
       {
-        "name": "music/egyptianoverworld1",
+        "name": "music/egyptiannether1",
         "stream": true
       },
       {
-        "name": "music/egyptianoverworld2",
+        "name": "music/egyptiannether2",
         "stream": true
       },
       {
-        "name": "music/egyptianoverworld3",
+        "name": "music/egyptiannether3",
         "stream": true
       },
       {
-        "name": "music/egyptianoverworld4",
-        "stream": true
-      },
-      {
-        "name": "music/egyptianoverworld5",
-        "stream": true
-      },
-      {
-        "name": "music/egyptianoverworld6",
-        "stream": true
-      },
-      {
-        "name": "music/egyptianoverworld7",
-        "stream": true
-      },
-      {
-        "name": "music/egyptianoverworld8",
-        "stream": true
-      },
-      {
-        "name": "music/egyptianoverworld9",
+        "name": "music/egyptiannether4",
         "stream": true
       }
     ]
