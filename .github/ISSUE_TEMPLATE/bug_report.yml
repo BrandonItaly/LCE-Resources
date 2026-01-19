@@ -1,0 +1,55 @@
+name: 🐛 Bug Report
+description: Report a missing texture, broken UI, or visual glitch
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue! Please ensure you are using the latest version of the resource pack before submitting.
+  
+  - type: input
+    id: pack
+    attributes:
+      label: Which Resource Pack?
+      description: Enter the name of the pack where you found the bug.
+      placeholder: e.g. Plastic Texture Pack, Natural, Halloween Mash-up
+    validations:
+      required: true
+
+  - type: input
+    id: mc_version
+    attributes:
+      label: Minecraft Version
+      placeholder: e.g., 1.20.4, 1.21
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: A clear and concise description of what the visual glitch is.
+      placeholder: The side texture of the crafting table is missing...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can we see this bug ourselves?
+      placeholder: |
+        1. Load the pack
+        2. Place a Sticky Piston
+        3. Look at the back texture
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots/Video
+      description: Please drag and drop screenshots here. This is crucial for texture bugs!
+    validations:
+      required: false
