@@ -1,0 +1,4 @@
+- Added support for [Bedrock Skins](https://modrinth.com/mod/bedrock-skins) mod
+- Added Norse Mythology Mash-up Skin Pack
+- Added Norse Mythology Bonus Skins Skin Pack
+- Added some textures that were missing in 1.21.11
