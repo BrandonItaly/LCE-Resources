@@ -1,0 +1,2 @@
+- Added some textures that were missing in 1.21.11
+- Added Day and Night Panorama for Legacy4J
