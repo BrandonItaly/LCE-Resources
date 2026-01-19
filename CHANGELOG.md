@@ -1,0 +1,1 @@
+- Added some textures that were missing in 1.21.11
