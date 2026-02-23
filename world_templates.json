@@ -1,189 +1,223 @@
 [
   {
-    "buttonMessage": { "text": "Toy Story Mash-Up World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.toy_story"
+    },
     "icon": "brand:creation_list/toy_story",
     "templateLocation": "world_templates/toy_story.mcsave",
-    "folderName": "Toy Story Mash-Up Save",
+    "folderName": "Toy Story Save",
     "resourceAlbum": "toy_story",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/toy_story.mcsave?checksum=e1a31e550dd8b81389fc90eadfe7c179",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/toy_story.mcsave?checksum=e1a31e550dd8b81389fc90eadfe7c179",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "Steven Universe World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.steven_universe"
+    },
     "icon": "brand:creation_list/steven_universe",
     "templateLocation": "world_templates/steven_universe.mcsave",
     "folderName": "Steven Universe Save",
     "resourceAlbum": "steven_uni",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/steven_universe.mcsave?checksum=351ba08c9f1d3791c7ffc5866a565d98",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/steven_universe.mcsave?checksum=351ba08c9f1d3791c7ffc5866a565d98",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "The Nightmare Before Christmas World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.nightmare_before_christmas"
+    },
     "icon": "brand:creation_list/nightmare_before_christmas",
     "templateLocation": "world_templates/nightmare_before_christmas.mcsave",
-    "folderName": "The Nightmare Before Christmas Save",
+    "folderName": "Nightmare Before Christmas Save",
     "resourceAlbum": "nightmare",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/nightmare_before_christmas.mcsave?checksum=3bd29bc584f7a31c7127a06754d48fd9",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/nightmare_before_christmas.mcsave?checksum=78e7f5850210eed38b1cb21bab2857da",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "Pirates Of The Caribbean World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.pirates_of_the_caribbean"
+    },
     "icon": "brand:creation_list/pirates_of_the_caribbean",
     "templateLocation": "world_templates/pirates_of_the_caribbean.mcsave",
     "folderName": "Pirates Of The Caribbean Save",
     "resourceAlbum": "caribbean",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/pirates_of_the_caribbean.mcsave?checksum=18d491408f3df57526e6b1a052f86718",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/pirates_of_the_caribbean.mcsave?checksum=3c71ca2803e358ecf00d386fe22c9110",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "Egyptian Mythology World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.egyptian_mythology"
+    },
     "icon": "brand:creation_list/egyptian_mythology",
     "templateLocation": "world_templates/egyptian_mythology.mcsave",
     "folderName": "Egyptian Mythology Save",
     "resourceAlbum": "egyptian",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/egyptian_mythology.mcsave?checksum=378dccb619bfd77d001bf9a88618baff",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/egyptian_mythology.mcsave?checksum=746b8071842d3649047b8cde41fbc10a",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "Norse Mythology World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.norse_mythology"
+    },
     "icon": "brand:creation_list/norse_mythology",
     "templateLocation": "world_templates/norse_mythology.mcsave",
     "folderName": "Norse Mythology Save",
     "resourceAlbum": "norse",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/norse_mythology.mcsave?checksum=63085778432539e14ffebf31a38e26c1",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/norse_mythology.mcsave?checksum=ab0f86f8835a9d69600975241ae037f0",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "Festive World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.festive"
+    },
     "icon": "brand:creation_list/festive",
     "templateLocation": "world_templates/festive.mcsave",
     "folderName": "Festive Save",
     "resourceAlbum": "festive",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/festive.mcsave?checksum=99a86ba1ef6a2292da353f6b2481ab78",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/festive.mcsave?checksum=fd85c535ce5f458f0d91b82cdaa5edd6",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "Chinese Mythology World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.chinese_mythology"
+    },
     "icon": "brand:creation_list/chinese_mythology",
     "templateLocation": "world_templates/chinese_mythology.mcsave",
     "folderName": "Chinese Mythology Save",
     "resourceAlbum": "chinese",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/chinese_mythology.mcsave?checksum=d08aa15ada2e010886e4244994e3a8ee",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/chinese_mythology.mcsave?checksum=1746630a2bf389e4f60cb1579faae777",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "Greek Mythology World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.greek_mythology"
+    },
     "icon": "brand:creation_list/greek_mythology",
     "templateLocation": "world_templates/greek_mythology.mcsave",
     "folderName": "Greek Mythology Save",
     "resourceAlbum": "greek",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/greek_mythology.mcsave?checksum=144f6c18454000b512bf68b6d98390aa",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/greek_mythology.mcsave?checksum=f26fe882e87d242ae90aef96518101fb",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "Adventure Time" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.adventure_time"
+    },
     "icon": "brand:creation_list/adventure_time",
     "templateLocation": "world_templates/adventure_time.mcsave",
     "folderName": "Adventure Time Save",
     "resourceAlbum": "adv_time",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/adventure_time.mcsave?checksum=c8977d327c6907384338ee4781687c43",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/adventure_time.mcsave?checksum=e92c5f72c593f6bb51a8773cf02b0abf",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "Fallout World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.fallout"
+    },
     "icon": "brand:creation_list/fallout",
     "templateLocation": "world_templates/fallout.mcsave",
     "folderName": "Fallout Save",
     "resourceAlbum": "fallout",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/fallout.mcsave?checksum=fa4962ee700c104d664b976eab73c305",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/fallout.mcsave?checksum=bc6c118c675967dd4f5d027741ee87a5",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "Skyrim World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.skyrim"
+    },
     "icon": "brand:creation_list/skyrim",
     "templateLocation": "world_templates/skyrim.mcsave",
     "folderName": "Skyrim Save",
     "resourceAlbum": "dragonborn",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/skyrim.mcsave?checksum=a9f53fca6d74a609bec54d6febf6ec3d",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/skyrim.mcsave?checksum=4128bd9802725372e13a4c99fd1965b1",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "Mass Effect World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.mass_effect"
+    },
     "icon": "brand:creation_list/mass_effect",
     "templateLocation": "world_templates/mass_effect.mcsave",
     "folderName": "Mass Effect Save",
     "resourceAlbum": "n7",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/mass_effect.mcsave?checksum=ab591369b76163ed97f56c05e3f81ffc",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/mass_effect.mcsave?checksum=42f063b31d467ccc02f2b4013422bf0b",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "LittleBigPlanet World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.littlebigplanet"
+    },
     "icon": "brand:creation_list/littlebigplanet",
     "templateLocation": "world_templates/littlebigplanet.mcsave",
     "folderName": "LittleBigPlanet Save",
     "resourceAlbum": "sackboy",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/littlebigplanet.mcsave?checksum=03e9e06ff9792cc971cb44cdbbdab9a7",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/littlebigplanet.mcsave?checksum=03e9e06ff9792cc971cb44cdbbdab9a7",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": {"text": "Super Mario World"},
+    "buttonMessage": {
+      "translate": "brand.world_templates.super_mario"
+    },
     "icon": "brand:creation_list/super_mario",
     "templateLocation": "world_templates/super_mario.mcsave",
     "folderName": "Super Mario World",
     "resourceAlbum": "super_mario",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/super_mario.mcsave?checksum=ea30bcbf32ff177d08dd73bc319a5ace",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/super_mario.mcsave?checksum=ea30bcbf32ff177d08dd73bc319a5ace",
     "directJoin": false,
     "isLocked": true
   },
   {
-    "buttonMessage": { "text": "Halloween World" },
+    "buttonMessage": {
+      "translate": "brand.world_templates.halloween"
+    },
     "icon": "brand:creation_list/halloween",
     "templateLocation": "world_templates/halloween.mcsave",
-    "folderName": "Halloween Save",
+    "folderName": "Halloween 2015 Save",
     "resourceAlbum": "halloween",
     "isGamePath": true,
-    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/halloween.mcsave?checksum=290889920a6e785f0c232abf4fb3fec0",
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/halloween.mcsave?checksum=7a55bcdbf19af023d4439a0dfcb9ac66",
+    "directJoin": false,
+    "isLocked": true
+  },
+  {
+    "buttonMessage": {
+      "translate": "brand.world_templates.halo"
+    },
+    "icon": "brand:creation_list/halo",
+    "templateLocation": "world_templates/halo.mcsave",
+    "folderName": "Halo Save",
+    "resourceAlbum": "master_chief",
+    "isGamePath": true,
+    "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/50525107964bd8589f7534c9470f4a1b21ea9087/world_templates/halo.mcsave?checksum=8352e9828275569b0036843afab55166",
     "directJoin": false,
     "isLocked": true
   }
-  // {
-  //   "buttonMessage": {"text": "Halo World"},
-  //   "icon": "brand:creation_list/halo",
-  //   "templateLocation": "world_templates/halo.mcsave",
-  //   "folderName": "Halo Save",
-  //   "resourceAlbum": "master_chief",
-  //   "isGamePath": true,
-  //   "downloadURI": "https://github.com/BrandonItaly/LCE-Resources/raw/refs/heads/main/world_templates/halo.mcsave?checksum=985371600e4e8fe210d3c2868ea578f5",
-  //   "directJoin": false,
-  //   "isLocked": true
-  // },
 ]
