@@ -1,4 +1,1 @@
-- Added support for [Bedrock Skins](https://modrinth.com/mod/bedrock-skins) mod and added Egyptian Mythology Mash-up skin pack
-- Added some textures that were missing in 1.21.11
-- Added Egyptian Mythology title for Legacy4J
-- Added Day and Night Panorama for Legacy4J
+- Fixed an issue where the kelp textures were missing.
