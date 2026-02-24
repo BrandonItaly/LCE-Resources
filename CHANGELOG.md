@@ -1,2 +1,1 @@
-- Added support for [Bedrock Skins](https://modrinth.com/mod/bedrock-skins) mod
-- Added some textures that were missing in 1.21.11
+- Fixed an issue where snow particles were using the wrong texture.
