@@ -2,7 +2,7 @@
   "animation": {
     "frametime": 2
   },
-  {
-  "alpha_cutoff_bias": 0.1
+  "texture": {
+    "alpha_cutoff_bias": 0.1
   }
 }
