@@ -1,0 +1,18 @@
+{
+  "effect": {
+    "minecraft:fire_resistance": "0xE49A3A",
+    "minecraft:instant_damage": "0x430A09",
+    "minecraft:invisibility": "0x7F8392",
+    "minecraft:jump_boost": "0x786297",
+    "minecraft:luck": "0x339900",
+    "minecraft:night_vision": "0x1F1FA1",
+    "minecraft:poison": "0x4E9331",
+    "minecraft:resistance": "0x99453A",
+    "minecraft:slow_falling": "0xFFEFD1",
+    "minecraft:slowness": "0x5A6C81",
+    "minecraft:speed": "0x7CAFC6",
+    "minecraft:strength": "0x932423",
+    "minecraft:water_breathing": "0x2E5299",
+    "minecraft:wither": "0x352A27"
+  }
+}

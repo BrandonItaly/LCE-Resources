@@ -1,0 +1,11 @@
+{
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#7aabff",
+    "minecraft:visual/fog_color": "#bfd7ff",
+    "minecraft:visual/water_fog_color": "#416fa3"
+  },
+  "fog_color": 12572671,
+  "sky_color": 8039423,
+  "water_color": 4750001,
+  "water_fog_color": 4288419
+}

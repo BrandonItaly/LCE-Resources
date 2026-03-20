@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "particle": "minecraft:block/stripped_bamboo_block",
+    "down": "minecraft:block/stripped_bamboo_block_bottom",
+    "up": "minecraft:block/stripped_bamboo_block_top",
+    "north": "minecraft:block/stripped_bamboo_block",
+    "east": "minecraft:block/stripped_bamboo_block_b",
+    "south": "minecraft:block/stripped_bamboo_block",
+    "west": "minecraft:block/stripped_bamboo_block_b"
+  }
+}
