@@ -1,0 +1,56 @@
+New textures have been added to cover content released since the Festive Mash-up’s Bedrock discontinuation, courtesy of the [Festive Mash-up Patch team](https://github.com/BrandonItaly/LCE-Resources/blob/festive/resources/CREDITS.md).
+
+### New Textures
+
+- Warm and cold farm animal variants
+- Bush
+- Leaf Litter
+- Cactus Flower
+- Wildflowers
+- Dry Grass
+- Firefly Bush
+- Falling leaf particles
+- Bamboo wood set
+- Cherry wood set
+- Pale oak wood set
+- Cherry and pale oak leaf particles
+- Pink Petals
+- Pale Garden foliage
+- Creaking
+- Hanging Signs
+- Shelves
+- Chiseled Bookshelf
+- Copper tools
+- Copper armor
+- Spears
+- Copper and Netherite Horse Armor
+- Mace and Heavy Core
+- Trial Spawners, Vaults, and Keys
+- Ominous Bottle
+- Camel and Camel Husk
+- Bat (updated model)
+- Armadillo
+- Bogged
+- Parched
+- Breeze and Wind Charge
+- Gust particles
+- Vex wings (to align with original Vex design)
+- Woods and Ashen Wolf variants
+- Armadillo Scute and Wolf Armor
+- Tuff set
+- Chiseled Copper
+- Copper Bulb
+- Suspicious blocks and Brush
+- Meditative
+- Baroque
+- Fern
+- Orb
+- Unpacked
+- Minecraft title texture
+- Happy Ghast, Ghastling, and Harness
+- Dried Ghast
+- Nautilus and Zombie Nautilus
+- Bundles
+- Creaking Heart
+- Music Discs
+- Calibrated Sculk Sensor
