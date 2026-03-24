@@ -12,23 +12,37 @@ jobs:
 
       - name: Optimize Assets
         run: |
-          sudo apt-get update && sudo apt-get install -y oxipng ffmpeg jq bc
+          # 1. Install standard tools via apt
+          sudo apt-get update && sudo apt-get install -y ffmpeg jq bc
 
+          # 2. Download and install oxipng (v10.1.0) directly
+          echo "Installing oxipng..."
+          wget -q https://github.com/oxipng/oxipng/releases/download/v10.1.0/oxipng-10.1.0-x86_64-unknown-linux-gnu.tar.gz
+          tar xf oxipng-10.1.0-x86_64-unknown-linux-gnu.tar.gz --strip-components=1
+          sudo mv oxipng /usr/local/bin/
+          rm oxipng-10.1.0-x86_64-unknown-linux-gnu.tar.gz
+
+          # Capture initial size
           PRE_SIZE=$(du -sb resources | cut -f1)
 
-          # 1. Optimize PNGs
+          # 3. Optimize PNGs
+          echo "Optimizing PNG files..."
           find resources -name "*.png" -exec oxipng -o 2 --strip all {} +
 
-          # 2. Optimize Audio
+          # 4. Optimize Audio
+          echo "Optimizing Audio files..."
           find resources -name "*.ogg" -exec ffmpeg -i {} -map_metadata -1 -acodec libvorbis -qscale:a 5 -y {}.tmp.ogg \; -exec mv {}.tmp.ogg {} \;
 
-          # 3. Minify JSON
+          # 5. Minify JSON
+          echo "Minifying JSON files..."
           find resources -name "*.json" -exec sh -c 'jq -c . "{}" > "{}.tmp" && mv "{}.tmp" "{}"' \;
 
+          # Capture final size and calculate savings
           POST_SIZE=$(du -sb resources | cut -f1)
           SAVED=$((PRE_SIZE - POST_SIZE))
           SAVED_MB=$(echo "scale=2; $SAVED / 1048576" | bc)
           
+          # Create summary
           echo "### 📦 Build Optimization Summary" >> $GITHUB_STEP_SUMMARY
           echo "| Metric | Size |" >> $GITHUB_STEP_SUMMARY
           echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
