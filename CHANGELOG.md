@@ -1,1 +1,2 @@
-- Fixed an issue where the kelp textures were missing.
+- Added support for 26.1
+- Fixed an issue where certain foliage blocks were tinted.
