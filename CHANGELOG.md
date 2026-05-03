@@ -1,1 +1,3 @@
-- Fixed an issue where snow particles were using the wrong texture.
+- Added support for 26.1
+- Added locator bar background texture
+- Fixed an issue where the spawn egg overlay would not appear on 26.1
