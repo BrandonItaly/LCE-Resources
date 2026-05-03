@@ -1,1 +1,1 @@
-- Added support for 26.1
+- Fixed an issue where the lightmap shader would not work correctly on 26.1
