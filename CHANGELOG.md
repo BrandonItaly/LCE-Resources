@@ -1,2 +1,3 @@
-- Added support for [Bedrock Skins](https://modrinth.com/mod/bedrock-skins) mod
-- Added some textures that were missing in 1.21.11
+- Added support for 26.1
+- Added locator bar background texture
+- Fixed an issue where armor item models were not rendering
