@@ -1,5 +1,11 @@
 {
-  "inventory_gray_text": "#ff000000",
-  "title_text": "#fff1d16d",
+  "inventory_gray_text": "#ff43321a",
+  "widget_text": "#ff43321a",
+  "highlighted_widget_text": "#ff1a1a1a",
+  "title_text": "#ffefbe30",
+  "tip_title_text": "#ff43321a",
+  "tip_text": "#fffff9a9",
+  "action_text": "#ffca9b2d",
+  "gray": "#ff43321a",
   "block_light": "#ffccff44"
 }
