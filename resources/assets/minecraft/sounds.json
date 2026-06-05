@@ -1,0 +1,554 @@
+{
+  "music.creative": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_thegoteam_getittogether",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_01-davidpoore-introduction",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_02-winifredphillips-thepod",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_03-paulthomson-newtonstheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_04-winifredphillips-stichemmanor",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_06-smithhenson-manglewoodtheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_07-emperormachine-pinballoftheundead",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_12-ugress-steampunkd",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_13-brian-doliveira-bunkumlagoontheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_14-paulthomson-herotheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_17-smoothmcgroove-secretgardens",
+        "stream": true
+      }
+    ]
+  },
+  "music.credits": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_thegoteam_getittogether",
+        "stream": true
+      }
+    ]
+  },
+  "music.dragon": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_meanies_theme_imusic_by_paul_thomson",
+        "stream": true
+      }
+    ]
+  },
+  "music.end": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_meanies_theme_imusic_by_paul_thomson",
+        "stream": true
+      }
+    ]
+  },
+  "music.game": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_thegoteam_getittogether",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_01-davidpoore-introduction",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_02-winifredphillips-thepod",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_03-paulthomson-newtonstheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_04-winifredphillips-stichemmanor",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_06-smithhenson-manglewoodtheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_07-emperormachine-pinballoftheundead",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_12-ugress-steampunkd",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_13-brian-doliveira-bunkumlagoontheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_14-paulthomson-herotheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_17-smoothmcgroove-secretgardens",
+        "stream": true
+      }
+    ]
+  },
+  "music.menu": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_01-davidpoore-introduction",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_02-winifredphillips-thepod",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_17-smoothmcgroove-secretgardens",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_discontinued_by_kenneth_young",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_09-jimfowler-swampceremony",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.basalt_deltas": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_09-jimfowler-swampceremony",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.crimson_forest": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_09-jimfowler-swampceremony",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.nether_wastes": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_09-jimfowler-swampceremony",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.soul_sand_valley": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_09-jimfowler-swampceremony",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.warped_forest": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_09-jimfowler-swampceremony",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.deep_dark": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_09-jimfowler-swampceremony",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.swamp": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_thegoteam_getittogether",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_01-davidpoore-introduction",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_02-winifredphillips-thepod",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_03-paulthomson-newtonstheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_04-winifredphillips-stichemmanor",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_06-smithhenson-manglewoodtheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_07-emperormachine-pinballoftheundead",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_12-ugress-steampunkd",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_13-brian-doliveira-bunkumlagoontheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_14-paulthomson-herotheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_17-smoothmcgroove-secretgardens",
+        "stream": true
+      }
+    ]
+  },
+  "music.under_water": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/lbp_thegoteam_getittogether",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_01-davidpoore-introduction",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_02-winifredphillips-thepod",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_03-paulthomson-newtonstheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_04-winifredphillips-stichemmanor",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_06-smithhenson-manglewoodtheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_07-emperormachine-pinballoftheundead",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_12-ugress-steampunkd",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_13-brian-doliveira-bunkumlagoontheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_14-paulthomson-herotheme",
+        "stream": true
+      },
+      {
+        "name": "music/lbp_17-smoothmcgroove-secretgardens",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.badlands": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.bamboo_jungle": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.cherry_grove": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.desert": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.dripstone_caves": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.flower_forest": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.forest": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.frozen_peaks": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.grove": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.jagged_peaks": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.jungle": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.lush_caves": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.meadow": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.old_growth_taiga": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.snowy_slopes": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.sparse_jungle": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  },
+  "music.overworld.stony_peaks": {
+    "category": "music",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.game",
+        "type": "event"
+      }
+    ]
+  }
+}
