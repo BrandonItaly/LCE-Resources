@@ -1,0 +1,12 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:stray",
+      "geometry": {
+        "default": "geometry.skeleton.stray.v1.8",
+        "overlay": "geometry.stray_armor"
+      }
+    }
+  }
+}

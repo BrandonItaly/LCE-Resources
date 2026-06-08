@@ -1,0 +1,11 @@
+﻿{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:zombie_villager",
+      "geometry": {
+        "default": "geometry.zombie.villager_v2"
+      }
+    }
+  }
+}

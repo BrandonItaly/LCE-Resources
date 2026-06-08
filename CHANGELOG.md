@@ -1,2 +1,39 @@
-- Added support for 26.1
-- Added locator bar background texture
+- Added support for [Bedrock Entity Models](https://modrinth.com/mod/bedrock-entity-models)
+- The following entities now have custom entity models:
+    - Bat
+    - Bed
+    - Blaze
+    - Boat
+    - Cave Spider
+    - Chest Boat
+    - Chicken
+    - Cow
+    - Enderman
+    - Evoker
+    - Ghast
+    - Husk
+    - Iron Golem
+    - Magma Cube
+    - Llama
+    - Minecart
+    - Mooshroom
+    - Parrot
+    - Phantom
+    - Pig
+    - Rabbit
+    - Sheep
+    - Stray
+    - Skeleton
+    - Spider
+    - Vex
+    - Villager
+    - Vindicator
+    - Witch
+    - Wither Skeleton
+    - Wither
+    - Wolf
+    - Zombie Villager
+    - Zombie
+    - Zombified Piglin
+- Legacy4J: Adjusted and added some sprites
+- Legacy4J: Updated common colors to match LCE

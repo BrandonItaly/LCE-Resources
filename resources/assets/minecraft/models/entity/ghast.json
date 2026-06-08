@@ -1,0 +1,442 @@
+{
+  "geometry.ghast": {
+    "META_ModelVersion": "1.0.6",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationDontShowArmor": false,
+    "animationInvertedCrouch": false,
+    "animationNoHeadBob": false,
+    "animationSingleArmAnimation": false,
+    "animationSingleLegAnimation": false,
+    "animationStationaryLegs": false,
+    "animationStatueOfLibertyArms": false,
+    "animationUpsideDown": false,
+    "bones": [
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -4.8,
+              -8.0,
+              -6.0
+            ],
+            "size": [
+              2.0,
+              9.0,
+              2.0
+            ],
+            "uv": [
+              16.0,
+              32.0
+            ]
+          }
+        ],
+        "name": "tentacles_0",
+        "parent": null,
+        "pivot": [
+          -3.8,
+          1.0,
+          -5.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              0.3,
+              -10.0,
+              -6.0
+            ],
+            "size": [
+              2.0,
+              11.0,
+              2.0
+            ],
+            "uv": [
+              25.0,
+              32.0
+            ]
+          }
+        ],
+        "name": "tentacles_1",
+        "parent": null,
+        "pivot": [
+          1.3,
+          1.0,
+          -5.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              5.3,
+              -7.0,
+              -6.0
+            ],
+            "size": [
+              2.0,
+              8.0,
+              2.0
+            ],
+            "uv": [
+              0.0,
+              32.0
+            ]
+          }
+        ],
+        "name": "tentacles_2",
+        "parent": null,
+        "pivot": [
+          6.3,
+          1.0,
+          -5.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -7.3,
+              -8.0,
+              -1.0
+            ],
+            "size": [
+              2.0,
+              9.0,
+              2.0
+            ],
+            "uv": [
+              16.0,
+              32.0
+            ]
+          }
+        ],
+        "name": "tentacles_3",
+        "parent": null,
+        "pivot": [
+          -6.3,
+          1.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -2.3,
+              -12.0,
+              -1.0
+            ],
+            "size": [
+              2.0,
+              13.0,
+              2.0
+            ],
+            "uv": [
+              0.0,
+              46.0
+            ]
+          }
+        ],
+        "name": "tentacles_4",
+        "parent": null,
+        "pivot": [
+          -1.3,
+          1.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              2.8,
+              -10.0,
+              -1.0
+            ],
+            "size": [
+              2.0,
+              11.0,
+              2.0
+            ],
+            "uv": [
+              25.0,
+              32.0
+            ]
+          }
+        ],
+        "name": "tentacles_5",
+        "parent": null,
+        "pivot": [
+          3.8,
+          1.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -4.8,
+              -11.0,
+              4.0
+            ],
+            "size": [
+              2.0,
+              12.0,
+              2.0
+            ],
+            "uv": [
+              33.0,
+              32.0
+            ]
+          }
+        ],
+        "name": "tentacles_6",
+        "parent": null,
+        "pivot": [
+          -3.8,
+          1.0,
+          5.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              0.3,
+              -11.0,
+              4.0
+            ],
+            "size": [
+              2.0,
+              12.0,
+              2.0
+            ],
+            "uv": [
+              41.0,
+              32.0
+            ]
+          }
+        ],
+        "name": "tentacles_7",
+        "parent": null,
+        "pivot": [
+          1.3,
+          1.0,
+          5.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              5.3,
+              -12.0,
+              4.0
+            ],
+            "size": [
+              2.0,
+              13.0,
+              2.0
+            ],
+            "uv": [
+              8.0,
+              46.0
+            ]
+          }
+        ],
+        "name": "tentacles_8",
+        "parent": null,
+        "pivot": [
+          6.3,
+          1.0,
+          5.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": "base",
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              16.0,
+              16.0
+            ],
+            "uv": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -0.5,
+              15.0,
+              -1.0
+            ],
+            "size": [
+              1.0,
+              7.0,
+              1.0
+            ],
+            "uv": [
+              4.0,
+              8.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -0.5,
+              0.0,
+              -1.0008
+            ],
+            "size": [
+              1.0,
+              15.0,
+              1.0
+            ],
+            "uv": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": true,
+            "origin": [
+              -6.0008,
+              9.9992,
+              -2.0008
+            ],
+            "size": [
+              6.0,
+              11.0,
+              1.0
+            ],
+            "uv": [
+              48.0,
+              0.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              0.0008,
+              9.9992,
+              -2.0
+            ],
+            "size": [
+              6.0,
+              11.0,
+              1.0
+            ],
+            "uv": [
+              48.0,
+              0.0
+            ]
+          }
+        ],
+        "name": "body",
+        "parent": null,
+        "pivot": [
+          0.0,
+          8.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "rigtype": null,
+    "textureheight": 64,
+    "texturewidth": 64
+  }
+}

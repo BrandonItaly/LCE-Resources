@@ -1,0 +1,14 @@
+﻿{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:rabbit",
+      "geometry": {
+        "default": "geometry.rabbit"
+      },
+      "scripts": {
+        "scale": "0.8"
+      }
+    }
+  }
+}
