@@ -1,0 +1,13 @@
+{
+  "targetUI": "wily.legacy.client.screen.SaveOptionsScreen",
+  "targetType": "class",
+  "applyCondition": {
+    "reference": "uiMode.hd"
+  },
+  "elements": {
+    "panel.sprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/save_options_panel"
+    }
+  }
+}

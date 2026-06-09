@@ -1,0 +1,30 @@
+{
+  "targetUI": "wily.legacy.client.screen.MixedCraftingScreen",
+  "targetType": "class",
+  "applyCondition": {
+    "reference": "uiMode.hd"
+  },
+  "elements": {
+    "imageSprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/panel"
+    },
+    "tabList.sprites": {
+      "type": "put_toggleable_tab_sprites",
+      "value": {
+        "high": {
+          "left": "legacy:tiles/crafting_high_tab_left",
+          "middle": "legacy:tiles/crafting_high_tab_middle",
+          "right": "legacy:tiles/crafting_high_tab_middle"
+        },
+        "down": "legacy:tiles/crafting_low_tab"
+      }
+    },
+    "tabList.buttonWidth": 51,
+    "tabList.selectedOffset.y": 0,
+    "tabList.buttonOffset.x": -1,
+    "tabList.height": 50,
+    "tabList.x": "${leftPos}-1",
+    "tabList.y": "${topPos}-37"
+  }
+}

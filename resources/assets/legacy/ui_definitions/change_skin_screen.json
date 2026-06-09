@@ -1,0 +1,10 @@
+{
+  "targetUI": "wily.legacy.skins.client.screen.AbstractChangeSkinScreen",
+  "targetType": "class",
+  "elements": {
+    "panel.sprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/change_skin_panel"
+    }
+  }
+}

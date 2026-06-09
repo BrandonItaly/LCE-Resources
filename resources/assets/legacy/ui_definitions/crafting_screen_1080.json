@@ -1,0 +1,134 @@
+{
+  "targetUI": "wily.legacy.client.screen.LegacyCraftingScreen",
+  "targetType": "class",
+  "applyCondition": {
+    "reference": "uiMode.fhd"
+  },
+  "elements": {
+    "imageSprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/lbp_crafting_panel_3x3"
+    },
+    "tabList.sprites": {
+      "type": "put_toggleable_tab_sprites",
+      "value": {
+        "high": {
+          "left": "legacy:tiles/crafting_high_tab_left",
+          "middle": "legacy:tiles/crafting_high_tab_middle",
+          "right": "legacy:tiles/crafting_high_tab_right"
+        },
+        "down": "legacy:tiles/crafting_low_tab"
+      }
+    },
+    "typeTabList.sprites": {
+      "type": "put_toggleable_tab_sprites",
+      "value": {
+        "high": {
+          "left": "legacy:tiles/crafting_high_vert_tab",
+          "middle": "legacy:tiles/crafting_high_vert_tab",
+          "right": "legacy:tiles/crafting_high_vert_tab"
+        },
+        "down": "legacy:tiles/crafting_low_vert_tab"
+      }
+    },
+    "imageHeight": 245,
+    "imageWidth": 351,
+    "tabYOffset": 11,
+    "tabList.buttonWidth": 51,
+    "tabList.selectedOffset.y": 0,
+    "tabList.buttonOffset.x": -1,
+    "tabList.height": 50,
+    "tabList.y": "${topPos}-37",
+    "bottomPanel.height": 0,
+    "craftingGridPanel.width": 145,
+    "inventoryPanel.width": 178,
+    "bottomPanel.y": 142,
+    "craftingGridSlot.size": 18,
+    "craftingGridPanel.x": 8,
+    "craftingResultSlot.size": 28,
+    "craftingButtons.size": 27,
+    "craftingButtons.y": 59,
+    "craftingButtons.x": "(${imageWidth}-${craftingButtons.size}*12)/2",
+    "craftingTitle.y": 7,
+    "craftingGridSlot.x": 20,
+    "craftingGridSlot.y": 22,
+    "craftingArrow.x": 82,
+    "craftingArrow.y": 46,
+    "descriptionPanel.x": 157,
+    "descriptionPanel.y": 8,
+    "descriptionPanel.width": 178,
+    "descriptionPanel.height": 80,
+    "descriptionText.x": 3,
+    "descriptionText.y": 3,
+    "inventoryPanel.x": 157,
+    "title.y": 6,
+    "typeTabList.buttonWidth": 48,
+    "typeTabList.height": 46,
+    "inventoryTitle.y": 3,
+    "resultSlot.x": 107,
+    "resultSlot.y": 39,
+    "ingredientsTitle.y": 2,
+    "ingredientSlot.size": 10,
+    "ingredientSlot.y": 12,
+    "ingredientText.x": 2,
+    "horizontalScroll.x": -7,
+    "horizontalScroll.y": 23,
+    "customCraftingButtons": {
+      "type": "children",
+      "elements": [
+        {
+          "name": "x",
+          "type": "put_number",
+          "applyCondition": "${craftingButtons.count}==1",
+          "value": 56
+        },
+        {
+          "name": "x",
+          "type": "put_number",
+          "applyCondition": "${craftingButtons.count}==2",
+          "value": 37
+        },
+        {
+          "name": "x",
+          "type": "put_number",
+          "applyCondition": "${craftingButtons.count}==3",
+          "value": 12
+        },
+        {
+          "name": "offset.x",
+          "type": "put_number",
+          "applyCondition": "${craftingButtons.count}==2",
+          "value": 24
+        },
+        {
+          "name": "offset.x",
+          "type": "put_number",
+          "applyCondition": "${craftingButtons.count}==3",
+          "value": 23
+        }
+      ]
+    },
+    "inventory": {
+      "type": "put_legacy_slot",
+      "range": "[0,26]",
+      "x": "${inventoryPanel.x}+12+(${inventory.index}%9)*18",
+      "y": "${bottomPanel.y}+18+(${inventory.index}/9)*18",
+      "width": 18,
+      "height": 18,
+      "isVisible": {
+        "reference": "isInventoryActive"
+      }
+    },
+    "quick_select": {
+      "type": "put_legacy_slot",
+      "range": "[27,36]",
+      "x": "${inventoryPanel.x}+12+(${quick_select.index}%9)*18",
+      "y": "${bottomPanel.y}+72",
+      "width": 18,
+      "height": 18,
+      "isVisible": {
+        "reference": "isInventoryActive"
+      }
+    }
+  }
+}

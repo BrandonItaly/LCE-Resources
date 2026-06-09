@@ -4,47 +4,47 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_thegoteam_getittogether",
+        "name": "music/lbp1",
         "stream": true
       },
       {
-        "name": "music/lbp_01-davidpoore-introduction",
+        "name": "music/lbp2",
         "stream": true
       },
       {
-        "name": "music/lbp_02-winifredphillips-thepod",
+        "name": "music/lbp3",
         "stream": true
       },
       {
-        "name": "music/lbp_03-paulthomson-newtonstheme",
+        "name": "music/lbp4",
         "stream": true
       },
       {
-        "name": "music/lbp_04-winifredphillips-stichemmanor",
+        "name": "music/lbp5",
         "stream": true
       },
       {
-        "name": "music/lbp_06-smithhenson-manglewoodtheme",
+        "name": "music/lbp6",
         "stream": true
       },
       {
-        "name": "music/lbp_07-emperormachine-pinballoftheundead",
+        "name": "music/lbp7",
         "stream": true
       },
       {
-        "name": "music/lbp_12-ugress-steampunkd",
+        "name": "music/lbp8",
         "stream": true
       },
       {
-        "name": "music/lbp_13-brian-doliveira-bunkumlagoontheme",
+        "name": "music/lbp9",
         "stream": true
       },
       {
-        "name": "music/lbp_14-paulthomson-herotheme",
+        "name": "music/lbp10",
         "stream": true
       },
       {
-        "name": "music/lbp_17-smoothmcgroove-secretgardens",
+        "name": "music/lbp11",
         "stream": true
       }
     ]
@@ -54,7 +54,7 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_thegoteam_getittogether",
+        "name": "music/lbp1",
         "stream": true
       }
     ]
@@ -64,7 +64,7 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_meanies_theme_imusic_by_paul_thomson",
+        "name": "music/lbp12",
         "stream": true
       }
     ]
@@ -74,7 +74,7 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_meanies_theme_imusic_by_paul_thomson",
+        "name": "music/lbp12",
         "stream": true
       }
     ]
@@ -84,47 +84,47 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_thegoteam_getittogether",
+        "name": "music/lbp1",
         "stream": true
       },
       {
-        "name": "music/lbp_01-davidpoore-introduction",
+        "name": "music/lbp2",
         "stream": true
       },
       {
-        "name": "music/lbp_02-winifredphillips-thepod",
+        "name": "music/lbp3",
         "stream": true
       },
       {
-        "name": "music/lbp_03-paulthomson-newtonstheme",
+        "name": "music/lbp4",
         "stream": true
       },
       {
-        "name": "music/lbp_04-winifredphillips-stichemmanor",
+        "name": "music/lbp5",
         "stream": true
       },
       {
-        "name": "music/lbp_06-smithhenson-manglewoodtheme",
+        "name": "music/lbp6",
         "stream": true
       },
       {
-        "name": "music/lbp_07-emperormachine-pinballoftheundead",
+        "name": "music/lbp7",
         "stream": true
       },
       {
-        "name": "music/lbp_12-ugress-steampunkd",
+        "name": "music/lbp8",
         "stream": true
       },
       {
-        "name": "music/lbp_13-brian-doliveira-bunkumlagoontheme",
+        "name": "music/lbp9",
         "stream": true
       },
       {
-        "name": "music/lbp_14-paulthomson-herotheme",
+        "name": "music/lbp10",
         "stream": true
       },
       {
-        "name": "music/lbp_17-smoothmcgroove-secretgardens",
+        "name": "music/lbp11",
         "stream": true
       }
     ]
@@ -134,23 +134,23 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_01-davidpoore-introduction",
+        "name": "music/lbp2",
         "stream": true
       },
       {
-        "name": "music/lbp_02-winifredphillips-thepod",
+        "name": "music/lbp3",
         "stream": true
       },
       {
-        "name": "music/lbp_17-smoothmcgroove-secretgardens",
+        "name": "music/lbp11",
         "stream": true
       },
       {
-        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "name": "music/lbp13",
         "stream": true
       },
       {
-        "name": "music/lbp_discontinued_by_kenneth_young",
+        "name": "music/lbp14",
         "stream": true
       }
     ]
@@ -160,15 +160,15 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "name": "music/lbp15",
         "stream": true
       },
       {
-        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "name": "music/lbp13",
         "stream": true
       },
       {
-        "name": "music/lbp_09-jimfowler-swampceremony",
+        "name": "music/lbp16",
         "stream": true
       }
     ]
@@ -178,15 +178,15 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "name": "music/lbp15",
         "stream": true
       },
       {
-        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "name": "music/lbp13",
         "stream": true
       },
       {
-        "name": "music/lbp_09-jimfowler-swampceremony",
+        "name": "music/lbp16",
         "stream": true
       }
     ]
@@ -196,15 +196,15 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "name": "music/lbp15",
         "stream": true
       },
       {
-        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "name": "music/lbp13",
         "stream": true
       },
       {
-        "name": "music/lbp_09-jimfowler-swampceremony",
+        "name": "music/lbp16",
         "stream": true
       }
     ]
@@ -214,15 +214,15 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "name": "music/lbp15",
         "stream": true
       },
       {
-        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "name": "music/lbp13",
         "stream": true
       },
       {
-        "name": "music/lbp_09-jimfowler-swampceremony",
+        "name": "music/lbp16",
         "stream": true
       }
     ]
@@ -232,15 +232,15 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "name": "music/lbp15",
         "stream": true
       },
       {
-        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "name": "music/lbp13",
         "stream": true
       },
       {
-        "name": "music/lbp_09-jimfowler-swampceremony",
+        "name": "music/lbp16",
         "stream": true
       }
     ]
@@ -250,15 +250,15 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "name": "music/lbp15",
         "stream": true
       },
       {
-        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "name": "music/lbp13",
         "stream": true
       },
       {
-        "name": "music/lbp_09-jimfowler-swampceremony",
+        "name": "music/lbp16",
         "stream": true
       }
     ]
@@ -268,15 +268,15 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_saregama_sun_by_kenneth_young",
+        "name": "music/lbp15",
         "stream": true
       },
       {
-        "name": "music/lbp_new_delhi_dawn_by_kenneth_young",
+        "name": "music/lbp13",
         "stream": true
       },
       {
-        "name": "music/lbp_09-jimfowler-swampceremony",
+        "name": "music/lbp16",
         "stream": true
       }
     ]
@@ -286,47 +286,47 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_thegoteam_getittogether",
+        "name": "music/lbp1",
         "stream": true
       },
       {
-        "name": "music/lbp_01-davidpoore-introduction",
+        "name": "music/lbp2",
         "stream": true
       },
       {
-        "name": "music/lbp_02-winifredphillips-thepod",
+        "name": "music/lbp3",
         "stream": true
       },
       {
-        "name": "music/lbp_03-paulthomson-newtonstheme",
+        "name": "music/lbp4",
         "stream": true
       },
       {
-        "name": "music/lbp_04-winifredphillips-stichemmanor",
+        "name": "music/lbp5",
         "stream": true
       },
       {
-        "name": "music/lbp_06-smithhenson-manglewoodtheme",
+        "name": "music/lbp6",
         "stream": true
       },
       {
-        "name": "music/lbp_07-emperormachine-pinballoftheundead",
+        "name": "music/lbp7",
         "stream": true
       },
       {
-        "name": "music/lbp_12-ugress-steampunkd",
+        "name": "music/lbp8",
         "stream": true
       },
       {
-        "name": "music/lbp_13-brian-doliveira-bunkumlagoontheme",
+        "name": "music/lbp9",
         "stream": true
       },
       {
-        "name": "music/lbp_14-paulthomson-herotheme",
+        "name": "music/lbp10",
         "stream": true
       },
       {
-        "name": "music/lbp_17-smoothmcgroove-secretgardens",
+        "name": "music/lbp11",
         "stream": true
       }
     ]
@@ -336,47 +336,47 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/lbp_thegoteam_getittogether",
+        "name": "music/lbp1",
         "stream": true
       },
       {
-        "name": "music/lbp_01-davidpoore-introduction",
+        "name": "music/lbp2",
         "stream": true
       },
       {
-        "name": "music/lbp_02-winifredphillips-thepod",
+        "name": "music/lbp3",
         "stream": true
       },
       {
-        "name": "music/lbp_03-paulthomson-newtonstheme",
+        "name": "music/lbp4",
         "stream": true
       },
       {
-        "name": "music/lbp_04-winifredphillips-stichemmanor",
+        "name": "music/lbp5",
         "stream": true
       },
       {
-        "name": "music/lbp_06-smithhenson-manglewoodtheme",
+        "name": "music/lbp6",
         "stream": true
       },
       {
-        "name": "music/lbp_07-emperormachine-pinballoftheundead",
+        "name": "music/lbp7",
         "stream": true
       },
       {
-        "name": "music/lbp_12-ugress-steampunkd",
+        "name": "music/lbp8",
         "stream": true
       },
       {
-        "name": "music/lbp_13-brian-doliveira-bunkumlagoontheme",
+        "name": "music/lbp9",
         "stream": true
       },
       {
-        "name": "music/lbp_14-paulthomson-herotheme",
+        "name": "music/lbp10",
         "stream": true
       },
       {
-        "name": "music/lbp_17-smoothmcgroove-secretgardens",
+        "name": "music/lbp11",
         "stream": true
       }
     ]

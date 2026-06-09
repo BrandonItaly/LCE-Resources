@@ -1,0 +1,13 @@
+{
+  "targetUI": "wily.legacy.client.screen.LoadSaveScreen",
+  "targetType": "class",
+  "applyCondition": {
+    "reference": "uiMode.fhd"
+  },
+  "elements": {
+    "panel.sprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/load_save_panel"
+    }
+  }
+}

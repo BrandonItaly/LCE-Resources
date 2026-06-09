@@ -1,0 +1,67 @@
+{
+  "targetUI": "wily.legacy.client.screen.LegacyFlatWorldScreen",
+  "targetType": "class",
+  "applyCondition": {
+    "reference": "uiMode.sd"
+  },
+  "elements": {
+    "panel.sprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/play_game_panel"
+    },
+    "panelRecess.sprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/square_recessed_panel"
+    },
+    "panel.width": 168,
+    "panel.height": 145,
+    "panelRecess.x": "${panel.x}+6",
+    "panelRecess.y": "${panel.y}+5",
+    "panelRecess.width": 155,
+    "panelRecess.height": 134,
+    "tabList.y": {
+      "type": "put_number",
+      "value": "${panel.y}-18"
+    },
+    "tabList.height": {
+      "type": "put_number",
+      "value": 20
+    },
+    "renderableVList.layerCount.xOffset": 8,
+    "renderableVList.layerIcon.scale": "10/16.0",
+    "renderableVList.biomeIcon.scale": "10/16.0",
+    "renderableVList.layerIcon.x": 21,
+    "renderableVList.biomeIcon.x": 17,
+    "renderableVList.layerMessage.xOffset": 38,
+    "renderableVList.biomeMessage.xOffset": 30,
+    "renderableVList.x": "${panel.x}+11",
+    "renderableVList.y": "${panel.y}+12",
+    "renderableVList.width": 144,
+    "renderableVList.height": 120,
+    "buttonsHeight": 15,
+    "tabList.sprites": {
+      "type": "put_toggleable_tab_sprites",
+      "value": {
+        "high": {
+          "left": "legacy:tiles/play_game_high_tab_left",
+          "middle": "legacy:tiles/play_game_high_tab_middle",
+          "right": "legacy:tiles/play_game_high_tab_right"
+        },
+        "down": "legacy:tiles/play_game_low_tab"
+      }
+    },
+    "tabList.offset": {
+      "type": "put_tab_state_offset",
+      "value": {
+        "selected": [
+          0,
+          -2
+        ],
+        "unselected": [
+          0,
+          2
+        ]
+      }
+    }
+  }
+}

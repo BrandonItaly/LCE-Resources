@@ -1,0 +1,58 @@
+{
+  "targetUI": "wily.legacy.client.screen.LegacyStonecutterScreen",
+  "targetType": "class",
+  "applyCondition": {
+    "reference": "uiMode.sd"
+  },
+  "elements": {
+    "imageSprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/lbp_crafting_panel_3x3"
+    },
+    "imageHeight": 148,
+    "imageWidth": 260,
+    "bottomPanel.height": 0,
+    "craftingGridPanel.width": 107,
+    "inventoryPanel.width": 132,
+    "bottomPanel.y": 76,
+    "craftingGridPanel.x": 6,
+    "stonecutterSlot.size": 25,
+    "craftingButtons.size": 20,
+    "craftingButtons.y": 18,
+    "craftingButtons.x": "(${imageWidth}-${craftingButtons.size}*12)/2",
+    "craftingTitle.y": -5,
+    "craftingGridSlot.x": 10,
+    "craftingGridSlot.y": 20,
+    "craftingArrow.x": 50,
+    "craftingArrow.y": 37,
+    "inventoryPanel.x": 116,
+    "title.y": 4,
+    "inventoryTitle.y": -5,
+    "resultSlot.x": 72,
+    "resultSlot.y": 32,
+    "inputSlot.x": 22,
+    "inputSlot.y": 32,
+    "inventory": {
+      "type": "put_legacy_slot",
+      "range": "[0,26]",
+      "x": "${inventoryPanel.x}+9+(${inventory.index}%9)*13",
+      "y": "${bottomPanel.y}+13+(${inventory.index}/9)*13",
+      "width": 13,
+      "height": 13,
+      "isVisible": {
+        "reference": "isInventoryActive"
+      }
+    },
+    "quick_select": {
+      "type": "put_legacy_slot",
+      "range": "[27,36]",
+      "x": "${inventoryPanel.x}+9+(${quick_select.index}%9)*13",
+      "y": "${bottomPanel.y}+52",
+      "width": 13,
+      "height": 13,
+      "isVisible": {
+        "reference": "isInventoryActive"
+      }
+    }
+  }
+}
