@@ -1,0 +1,49 @@
+{
+  "targetUI": "wily.legacy.client.screen.PlayGameScreen",
+  "targetType": "class",
+  "applyCondition": {
+    "reference": "uiMode.hd"
+  },
+  "elements": {
+    "panel.sprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/play_game_panel"
+    },
+    "panelRecess.sprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/square_recessed_panel"
+    },
+    "tabList.offset": {
+      "type": "put_tab_state_offset",
+      "value": {
+        "selected": [
+          0,
+          -2
+        ],
+        "unselected": [
+          0,
+          2
+        ]
+      }
+    },
+    "tabList.height": {
+      "type": "put_number",
+      "value": 20
+    },
+    "tabList.y": {
+      "type": "put_number",
+      "value": "${panel.y}-18"
+    },
+    "tabList.sprites": {
+      "type": "put_toggleable_tab_sprites",
+      "value": {
+        "high": {
+          "left": "legacy:tiles/play_game_high_tab_left",
+          "middle": "legacy:tiles/play_game_high_tab_middle",
+          "right": "legacy:tiles/play_game_high_tab_right"
+        },
+        "down": "legacy:tiles/play_game_low_tab"
+      }
+    }
+  }
+}

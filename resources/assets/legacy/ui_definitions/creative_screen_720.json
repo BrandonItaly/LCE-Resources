@@ -1,0 +1,80 @@
+{
+  "targetUI": "wily.legacy.client.screen.CreativeModeScreen",
+  "targetType": "class",
+  "applyCondition": {
+    "reference": "uiMode.hd"
+  },
+  "elements": {
+    "panel.sprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/creative_panel"
+    },
+    "tabList.sprites": {
+      "type": "put_toggleable_tab_sprites",
+      "value": {
+        "high": {
+          "left": "legacy:tiles/lbp_tab_highlight",
+          "middle": "legacy:tiles/lbp_tab_highlight",
+          "right": "legacy:tiles/lbp_tab_highlight"
+        },
+        "down": "legacy:tiles/big_low_tab"
+      }
+    },
+    "panel.height": {
+      "type": "put_number",
+      "value": 270
+    },
+    "panel.y": {
+      "type": "put_number",
+      "value": "(${height}-270)/2"
+    },
+    "tabList.y": {
+      "type": "put_number",
+      "value": "${panel.y}+10"
+    },
+    "tabList.height": {
+      "type": "put_number",
+      "value": 39
+    },
+    "tabList.buttonWidth": {
+      "type": "put_number",
+      "value": 41
+    },
+    "title.y": {
+      "type": "put_number",
+      "value": 62
+    },
+    "scroller.y": {
+      "type": "put_number",
+      "value": "${panel.y}+91"
+    },
+    "scroller.height": {
+      "type": "put_number",
+      "value": 160
+    },
+    "scroller.trackSprite": {
+      "type": "put_resource_location",
+      "value": "legacy:widget/lbp_scroller_track"
+    },
+    "scroller.thumbSprite": {
+      "type": "put_resource_location",
+      "value": "legacy:widget/lbp_scroller_thumb"
+    },
+    "creative_menu": {
+      "type": "put_legacy_slot",
+      "range": "[0,49]",
+      "x": "18+(${creative_menu.index}%10)*27",
+      "y": "88+(${creative_menu.index}/10)*27",
+      "width": 27,
+      "height": 27
+    },
+    "quick_select": {
+      "type": "put_legacy_slot",
+      "range": "[50,59]",
+      "x": "32+(${quick_select.index}%9)*27",
+      "y": 241,
+      "width": 27,
+      "height": 27
+    }
+  }
+}

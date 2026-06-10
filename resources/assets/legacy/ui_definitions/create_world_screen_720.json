@@ -1,0 +1,12 @@
+{
+  "targetUI": "create_world_screen",
+  "applyCondition": {
+    "reference": "uiMode.hd"
+  },
+  "elements": {
+    "panel.sprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/create_world_panel"
+    }
+  }
+}

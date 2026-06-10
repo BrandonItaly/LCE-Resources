@@ -1,0 +1,92 @@
+{
+  "targetUI": "wily.legacy.client.screen.CreativeModeScreen",
+  "targetType": "class",
+  "applyCondition": {
+    "reference": "uiMode.sd"
+  },
+  "elements": {
+    "panel.sprite": {
+      "type": "put_resource_location",
+      "value": "legacy:tiles/creative_panel_480"
+    },
+    "tabList.sprites": {
+      "type": "put_toggleable_tab_sprites",
+      "value": {
+        "high": {
+          "left": "legacy:tiles/lbp_tab_highlight",
+          "middle": "legacy:tiles/lbp_tab_highlight",
+          "right": "legacy:tiles/lbp_tab_highlight"
+        },
+        "down": "legacy:tiles/big_low_tab"
+      }
+    },
+    "panel.width": {
+      "type": "put_number",
+      "value": 212
+    },
+    "panel.height": {
+      "type": "put_number",
+      "value": 180
+    },
+    "panel.y": {
+      "type": "put_number",
+      "value": "(${height}-180)/2"
+    },
+    "tabList.y": {
+      "type": "put_number",
+      "value": "${panel.y}+7"
+    },
+    "tabList.height": {
+      "type": "put_number",
+      "value": 27
+    },
+    "tabList.buttonWidth": {
+      "type": "put_number",
+      "value": 27
+    },
+    "title.y": {
+      "type": "put_number",
+      "value": 41
+    },
+    "scroller.x": {
+      "type": "put_number",
+      "value": "${panel.x}+196"
+    },
+    "scroller.y": {
+      "type": "put_number",
+      "value": "${panel.y}+61"
+    },
+    "scroller.width": {
+      "type": "put_number",
+      "value": 13
+    },
+    "scroller.trackSprite": {
+      "type": "put_resource_location",
+      "value": "legacy:widget/lbp_scroller_track"
+    },
+    "scroller.thumbSprite": {
+      "type": "put_resource_location",
+      "value": "legacy:widget/lbp_scroller_thumb_480"
+    },
+    "scroller.height": {
+      "type": "put_number",
+      "value": 107
+    },
+    "creative_menu": {
+      "type": "put_legacy_slot",
+      "range": "[0,49]",
+      "x": "12+(${creative_menu.index}%10)*18",
+      "y": "59+(${creative_menu.index}/10)*18",
+      "width": 18,
+      "height": 18
+    },
+    "quick_select": {
+      "type": "put_legacy_slot",
+      "range": "[50,59]",
+      "x": "21+(${quick_select.index}%9)*18",
+      "y": 161,
+      "width": 18,
+      "height": 18
+    }
+  }
+}

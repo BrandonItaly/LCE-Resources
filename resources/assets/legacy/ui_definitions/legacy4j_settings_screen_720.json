@@ -1,0 +1,20 @@
+{
+  "targetUI": "wily.legacy.client.screen.Legacy4JSettingsScreen",
+  "targetType": "class",
+  "applyCondition": {
+    "reference": "uiMode.hd"
+  },
+  "elements": {
+    "tabList.sprites": {
+      "type": "put_toggleable_tab_sprites",
+      "value": {
+        "high": {
+          "left": "legacy:tiles/menu_high_vert_tab_left",
+          "middle": "legacy:tiles/menu_high_vert_tab_middle",
+          "right": "legacy:tiles/menu_high_vert_tab_right"
+        },
+        "down": "legacy:tiles/menu_low_vert_tab"
+      }
+    }
+  }
+}
