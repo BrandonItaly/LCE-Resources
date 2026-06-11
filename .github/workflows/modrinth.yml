@@ -107,8 +107,6 @@ jobs:
             bedrock-skins(optional)
             legacy4j(optional)
             raised(optional)
-            entity-model-features(optional)
-            entitytexturefeatures(optional)
           
           # Update these to match the Minecraft versions you support
           game-versions: |
