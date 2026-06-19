@@ -1,5 +1,7 @@
-- Updated core shaders for 26.1
-- Added locator bar background texture
-- The respawn anchor top texture is now opaque on 26.1
-- Fixed an issue where the adult turtle texture was missing on 26.1
-- Fixed an issue where the adult dolphin texture was missing on 26.1
+- Added support for 26.2:
+    - Updated core shaders
+    - Updated the bed model, matching Bedrock and Legacy Console Edition
+- Legacy4J: Updated common colors to match Legacy Console Edition
+- Fixed an issue where chests would appear on Donkeys and Mules, even if they didn't have a chest equipped
+- Fixed an issue where chests would render incorrectly when using the Better Block Entities mod
+- Fixed an issue where the resource pack would fail to load on some versions before 1.21.2
