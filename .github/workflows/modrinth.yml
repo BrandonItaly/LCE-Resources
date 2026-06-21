@@ -107,6 +107,7 @@ jobs:
             bedrock-skins(optional)
             legacy4j(optional)
             raised(optional)
+            polytone(optional)
             entity-model-features(optional)
             entitytexturefeatures(optional)
           
@@ -130,6 +131,7 @@ jobs:
             bedrock-skins(optional)
             legacy4j(optional)
             raised(optional)
+            polytone(optional)
             entity-model-features(optional)
             entity-texture-features-fabric(optional)
           game-versions: |
