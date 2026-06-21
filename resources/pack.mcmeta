@@ -3,75 +3,112 @@
     "name": "Chinese Mythology Mash-up",
     "description": "Journey through epic terrain and find enlightenment in this mythical Mash-up!",
     "min_format": 18,
-    "max_format": 84,
-    "pack_format": 84,
+    "max_format": 999,
+    "pack_format": 999,
     "supported_formats": {
       "min_inclusive": 18,
-      "max_inclusive": 84
+      "max_inclusive": 999
     }
   },
   "overlays": {
     "entries": [
       {
-        "directory": "1_20_2",
+        "directory": "1_20_2_shaders",
         "min_format": 18,
-        "max_format": 84,
+        "max_format": 41,
         "formats": [
           18,
-          84
+          41
         ]
       },
       {
-        "directory": "1_21_2",
+        "directory": "1_21_2_shaders",
         "min_format": 42,
-        "max_format": 84,
+        "max_format": 62,
         "formats": [
           42,
-          84
+          62
         ]
       },
       {
         "directory": "1_21_5",
         "min_format": 55,
-        "max_format": 84,
+        "max_format": 999,
         "formats": [
           55,
-          84
+          999
         ]
       },
       {
-        "directory": "1_21_6",
+        "directory": "1_21_6_shaders",
         "min_format": 63,
-        "max_format": 84,
+        "max_format": 68,
         "formats": [
           63,
-          84
+          68
         ]
       },
       {
         "directory": "1_21_9",
         "min_format": 69,
-        "max_format": 84,
+        "max_format": 999,
         "formats": [
           69,
-          84
+          999
+        ]
+      },
+      {
+        "directory": "1_21_9_shaders",
+        "min_format": 69,
+        "max_format": 83,
+        "formats": [
+          69,
+          83
         ]
       },
       {
         "directory": "26_1",
         "min_format": 84,
-        "max_format": 84,
+        "max_format": 999,
         "formats": [
           84,
-          84
+          999
+        ]
+      },
+      {
+        "directory": "26_1_shaders",
+        "min_format": 84,
+        "max_format": 87,
+        "formats": [
+          84,
+          87
+        ]
+      },
+      {
+        "directory": "26_2",
+        "min_format": 88,
+        "max_format": 999,
+        "formats": [
+          88,
+          999
+        ]
+      },
+      {
+        "directory": "26_2_shaders",
+        "min_format": 88,
+        "max_format": 88,
+        "formats": [
+          88,
+          88
         ]
       }
     ]
   },
   "meta": {
     "converted_from": "bedrock",
-    "conversion_date": "2026-05-18T09:26:42.398Z",
+    "conversion_date": "2026-06-21T03:56:08.509Z",
     "original_uuid": "ef9723df-01a4-4c1d-a362-a6bb74f94001",
+    "min_engine_version": "1.19.50",
     "original_version": "1.0.64"
   }
 }
