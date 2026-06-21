@@ -1,33 +1,34 @@
-#version 150
-
+#moj_import <minecraft:globals.glsl>
 #moj_import <color_overrides.glsl>
 
-uniform float GameTime;
-
 precision highp float;
-
-#define finalize() { \
-    vertexDistance=length((ModelViewMat*vertex).xyz); \
-    texCoord0=UV0; \
-}
 
 void applyProjection(inout vec4 vertex) {
     gl_Position = ProjMat * ModelViewMat * vertex;
 }
 
 void applyColorTexture() {
-    vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
+    #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
+    vertexColor = Color * sample_lightmap(Sampler2, UV2);
+    #else
+    vertexColor = Color;
+    #endif
 }
 
 void processColorReplace(inout vec4 vertex, vec3 newColor) {
     applyProjection(vertex);
-    vertexColor = vec4(newColor, Color.a) * texelFetch(Sampler2, UV2 / 16, 0);
-    finalize();
+    #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
+    vertexColor = vec4(newColor, Color.a) * sample_lightmap(Sampler2, UV2);
+    sphericalVertexDistance = fog_spherical_distance(Position);
+    cylindricalVertexDistance = fog_cylindrical_distance(Position);
+    #else
+    vertexColor = vec4(newColor, Color.a);
+    #endif
 }
 
 void applyTextColors() {
-    vec4 vertex = vec4(Position, 1.);
-    ivec3 iColor = ivec3(Color.xyz * 255 + vec3(.5));
+    vec4 vertex = vec4(Position, 1.0);
+    ivec3 iColor = ivec3(Color.xyz * 255.0 + vec3(0.5));
 
     // Standard Colors
     if (iColor == ivec3(0, 0, 0)) { processColorReplace(vertex, black); return; }
@@ -72,5 +73,8 @@ void applyTextColors() {
 
     applyProjection(vertex);
     applyColorTexture();
-    finalize();
+    #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
+    sphericalVertexDistance = fog_spherical_distance(Position);
+    cylindricalVertexDistance = fog_cylindrical_distance(Position);
+    #endif
 }
