@@ -3,71 +3,98 @@
     "name": "Greek Mythology Mash-up",
     "description": "Build a pantheon fit for the gods, trap the Minotaur in an elaborate maze, or set sail for adventures across the sea – the world is your square oyster!",
     "min_format": 18,
-    "max_format": 88,
-    "pack_format": 88,
+    "max_format": 999,
+    "pack_format": 999,
     "supported_formats": {
       "min_inclusive": 18,
-      "max_inclusive": 88
+      "max_inclusive": 999
     }
   },
   "overlays": {
     "entries": [
       {
-        "directory": "1_20_2",
+        "directory": "1_20_2_shaders",
         "min_format": 18,
-        "max_format": 88,
+        "max_format": 41,
         "formats": [
           18,
-          88
+          41
         ]
       },
       {
-        "directory": "1_21_2",
+        "directory": "1_21_2_shaders",
         "min_format": 42,
-        "max_format": 88,
+        "max_format": 62,
         "formats": [
           42,
-          88
+          62
         ]
       },
       {
         "directory": "1_21_5",
         "min_format": 55,
-        "max_format": 88,
+        "max_format": 999,
         "formats": [
           55,
-          88
+          999
         ]
       },
       {
-        "directory": "1_21_6",
+        "directory": "1_21_6_shaders",
         "min_format": 63,
-        "max_format": 88,
+        "max_format": 68,
         "formats": [
           63,
-          88
+          68
         ]
       },
       {
         "directory": "1_21_9",
         "min_format": 69,
-        "max_format": 88,
+        "max_format": 999,
         "formats": [
           69,
-          88
+          999
+        ]
+      },
+      {
+        "directory": "1_21_9_shaders",
+        "min_format": 69,
+        "max_format": 83,
+        "formats": [
+          69,
+          83
         ]
       },
       {
         "directory": "26_1",
         "min_format": 84,
-        "max_format": 88,
+        "max_format": 999,
         "formats": [
           84,
-          88
+          999
+        ]
+      },
+      {
+        "directory": "26_1_shaders",
+        "min_format": 84,
+        "max_format": 87,
+        "formats": [
+          84,
+          87
         ]
       },
       {
         "directory": "26_2",
+        "min_format": 88,
+        "max_format": 999,
+        "formats": [
+          88,
+          999
+        ]
+      },
+      {
+        "directory": "26_2_shaders",
         "min_format": 88,
         "max_format": 88,
         "formats": [
@@ -79,7 +106,7 @@
   },
   "meta": {
     "converted_from": "bedrock",
-    "conversion_date": "2026-06-19T03:37:08.913Z",
+    "conversion_date": "2026-06-21T03:38:15.027Z",
     "original_uuid": "98330b0a-2c79-4d30-b9c8-136098340edc",
     "min_engine_version": "1.26.10",
     "original_version": "1.0.83"
