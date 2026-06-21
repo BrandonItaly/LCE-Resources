@@ -36,4 +36,4 @@ const vec3 title_text_color = vec3(0.803, 0.867, 0.906);
 
 const vec3 body_text_color = vec3(0.803, 0.867, 0.906);
 
-const vec3 experience_text_color = vec3(0.5, 1, 0);
+const vec3 experience_text_color = vec3(0.851, 0.851, 0.851);
