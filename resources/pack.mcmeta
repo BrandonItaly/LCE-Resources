@@ -1,0 +1,114 @@
+{
+  "pack": {
+    "name": "Pirates Of The Caribbean",
+    "description": "Take what you can. Give nothing back! Join Jack and his crew in the Pirates of the Caribbean Mash-up, featuring all of your favorite rogues and rascals. Plot a course from Tortuga to Shipwreck Cove and all the way down to Davy Jones’ Locker. This is the day you will always remember as the day you sailed with Captain Jack Sparrow.",
+    "min_format": 18,
+    "max_format": 999,
+    "pack_format": 999,
+    "supported_formats": {
+      "min_inclusive": 18,
+      "max_inclusive": 999
+    }
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "1_20_2_shaders",
+        "min_format": 18,
+        "max_format": 41,
+        "formats": [
+          18,
+          41
+        ]
+      },
+      {
+        "directory": "1_21_2_shaders",
+        "min_format": 42,
+        "max_format": 62,
+        "formats": [
+          42,
+          62
+        ]
+      },
+      {
+        "directory": "1_21_5",
+        "min_format": 55,
+        "max_format": 999,
+        "formats": [
+          55,
+          999
+        ]
+      },
+      {
+        "directory": "1_21_6_shaders",
+        "min_format": 63,
+        "max_format": 68,
+        "formats": [
+          63,
+          68
+        ]
+      },
+      {
+        "directory": "1_21_9",
+        "min_format": 69,
+        "max_format": 999,
+        "formats": [
+          69,
+          999
+        ]
+      },
+      {
+        "directory": "1_21_9_shaders",
+        "min_format": 69,
+        "max_format": 83,
+        "formats": [
+          69,
+          83
+        ]
+      },
+      {
+        "directory": "26_1",
+        "min_format": 84,
+        "max_format": 999,
+        "formats": [
+          84,
+          999
+        ]
+      },
+      {
+        "directory": "26_1_shaders",
+        "min_format": 84,
+        "max_format": 87,
+        "formats": [
+          84,
+          87
+        ]
+      },
+      {
+        "directory": "26_2",
+        "min_format": 88,
+        "max_format": 999,
+        "formats": [
+          88,
+          999
+        ]
+      },
+      {
+        "directory": "26_2_shaders",
+        "min_format": 88,
+        "max_format": 88,
+        "formats": [
+          88,
+          88
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "converted_from": "bedrock",
+    "conversion_date": "2026-06-25T03:07:28.901Z",
+    "original_uuid": "f4f1416e-375a-483b-a997-5e83839f323c",
+    "min_engine_version": "1.21.40",
+    "original_version": "1.0.86"
+  }
+}

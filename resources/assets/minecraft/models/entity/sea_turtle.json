@@ -1,0 +1,337 @@
+{
+  "geometry.turtle": {
+    "META_ModelVersion": "1.0.6",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationDontShowArmor": false,
+    "animationInvertedCrouch": false,
+    "animationNoHeadBob": false,
+    "animationSingleArmAnimation": false,
+    "animationSingleLegAnimation": false,
+    "animationStationaryLegs": false,
+    "animationStatueOfLibertyArms": false,
+    "animationUpsideDown": false,
+    "bones": [
+      {
+        "META_BoneType": "base",
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -3.0,
+              1.0,
+              -13.0
+            ],
+            "size": [
+              6.0,
+              5.0,
+              6.0
+            ],
+            "uv": [
+              2.0,
+              0.0
+            ]
+          }
+        ],
+        "name": "head",
+        "parent": null,
+        "pivot": [
+          0.0,
+          5.0,
+          -10.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -4.5,
+              -8.00003,
+              -24.00003
+            ],
+            "size": [
+              9.0,
+              18.0,
+              1.0
+            ],
+            "uv": [
+              69.0,
+              33.0
+            ]
+          }
+        ],
+        "name": "eggbelly",
+        "parent": null,
+        "pivot": [
+          0.0,
+          13.0,
+          -10.0
+        ],
+        "rotation": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": "base",
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -9.5,
+              -10.00003,
+              -20.00003
+            ],
+            "size": [
+              19.0,
+              20.0,
+              6.0
+            ],
+            "uv": [
+              6.0,
+              37.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -5.5,
+              -8.00003,
+              -23.00003
+            ],
+            "size": [
+              11.0,
+              18.0,
+              3.0
+            ],
+            "uv": [
+              30.0,
+              1.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -10.5,
+              2.99917,
+              -14.0
+            ],
+            "size": [
+              22.0,
+              4.0,
+              1.0
+            ],
+            "uv": [
+              61.0,
+              3.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -11.5,
+              -7.50016,
+              -14.0
+            ],
+            "size": [
+              23.0,
+              4.0,
+              1.0
+            ],
+            "uv": [
+              61.0,
+              17.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -11.4992,
+              -2.50002,
+              -14.0
+            ],
+            "size": [
+              22.0,
+              4.0,
+              1.0
+            ],
+            "uv": [
+              61.0,
+              10.0
+            ]
+          }
+        ],
+        "name": "body",
+        "parent": null,
+        "pivot": [
+          0.0,
+          13.0,
+          -10.0
+        ],
+        "rotation": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -5.5,
+              1.0,
+              11.0
+            ],
+            "size": [
+              4.0,
+              1.0,
+              10.0
+            ],
+            "uv": [
+              0.0,
+              23.0
+            ]
+          }
+        ],
+        "name": "leg0",
+        "parent": null,
+        "pivot": [
+          -3.5,
+          2.0,
+          11.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              1.5,
+              1.0,
+              11.0
+            ],
+            "size": [
+              4.0,
+              1.0,
+              10.0
+            ],
+            "uv": [
+              0.0,
+              12.0
+            ]
+          }
+        ],
+        "name": "leg1",
+        "parent": null,
+        "pivot": [
+          3.5,
+          2.0,
+          11.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -18.0,
+              2.0,
+              -6.0
+            ],
+            "size": [
+              13.0,
+              1.0,
+              5.0
+            ],
+            "uv": [
+              26.0,
+              30.0
+            ]
+          }
+        ],
+        "name": "leg2",
+        "parent": null,
+        "pivot": [
+          -5.0,
+          3.0,
+          -4.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              5.0,
+              2.0,
+              -6.0
+            ],
+            "size": [
+              13.0,
+              1.0,
+              5.0
+            ],
+            "uv": [
+              26.0,
+              24.0
+            ]
+          }
+        ],
+        "name": "leg3",
+        "parent": null,
+        "pivot": [
+          5.0,
+          3.0,
+          -4.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "rigtype": null,
+    "textureheight": 64,
+    "texturewidth": 128
+  }
+}

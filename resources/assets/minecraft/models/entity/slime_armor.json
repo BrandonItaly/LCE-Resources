@@ -1,0 +1,139 @@
+{
+  "geometry.slime.armor": {
+    "META_ModelVersion": "1.0.6",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationDontShowArmor": false,
+    "animationInvertedCrouch": false,
+    "animationNoHeadBob": false,
+    "animationSingleArmAnimation": false,
+    "animationSingleLegAnimation": false,
+    "animationStationaryLegs": false,
+    "animationStatueOfLibertyArms": false,
+    "animationUpsideDown": false,
+    "bones": [
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -4.0,
+              0.0,
+              -4.0
+            ],
+            "size": [
+              8.0,
+              8.0,
+              8.0
+            ],
+            "uv": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -4.0,
+              0.0,
+              -4.0
+            ],
+            "size": [
+              8.0,
+              8.0,
+              8.0
+            ],
+            "uv": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -1.0008,
+              3.0008,
+              -8.0
+            ],
+            "size": [
+              2.0,
+              2.0,
+              4.0
+            ],
+            "uv": [
+              24.0,
+              2.0
+            ]
+          }
+        ],
+        "name": "cube",
+        "parent": null,
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [],
+        "name": "eye0",
+        "parent": null,
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [],
+        "name": "eye1",
+        "parent": null,
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [],
+        "name": "mouth",
+        "parent": null,
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "rigtype": null,
+    "textureheight": 32,
+    "texturewidth": 64
+  }
+}

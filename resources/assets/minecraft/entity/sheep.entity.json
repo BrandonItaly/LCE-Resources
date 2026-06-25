@@ -1,0 +1,12 @@
+﻿{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:sheep",
+      "geometry": {
+        "default": "geometry.sheep.v1.8:sheared",
+        "sheared": "geometry.sheep.sheared.v1.8"
+      }
+    }
+  }
+}

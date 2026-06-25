@@ -1,0 +1,4 @@
+- Added support for 26.2:
+    - Updated core shaders.
+    - Updated the bed model, matching Bedrock and Legacy Console Edition.
+- Added support for [Bedrock Entity Models](https://modrinth.com/mod/bedrock-entity-models) and added all entity models.

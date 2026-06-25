@@ -1,0 +1,372 @@
+{
+  "geometry.phantom": {
+    "META_ModelVersion": "1.0.6",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationDontShowArmor": false,
+    "animationInvertedCrouch": false,
+    "animationNoHeadBob": false,
+    "animationSingleArmAnimation": false,
+    "animationSingleLegAnimation": false,
+    "animationStationaryLegs": false,
+    "animationStatueOfLibertyArms": false,
+    "animationUpsideDown": false,
+    "bones": [
+      {
+        "META_BoneType": "base",
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -3.0,
+              23.0,
+              -8.0
+            ],
+            "size": [
+              5.0,
+              3.0,
+              9.0
+            ],
+            "uv": [
+              0.0,
+              8.0
+            ]
+          }
+        ],
+        "name": "body",
+        "parent": null,
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "rotation": [
+          -5.7,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              2.0,
+              24.0,
+              -8.0
+            ],
+            "size": [
+              6.0,
+              2.0,
+              9.0
+            ],
+            "uv": [
+              23.0,
+              12.0
+            ]
+          }
+        ],
+        "name": "wing0",
+        "parent": null,
+        "pivot": [
+          2.0,
+          26.0,
+          -8.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          5.7
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": true,
+            "origin": [
+              8.0,
+              25.0,
+              -8.0
+            ],
+            "size": [
+              13.0,
+              1.0,
+              9.0
+            ],
+            "uv": [
+              16.0,
+              24.0
+            ]
+          }
+        ],
+        "name": "wingtip0",
+        "parent": null,
+        "pivot": [
+          8.0,
+          26.0,
+          -8.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          5.7
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": true,
+            "origin": [
+              -9.0,
+              24.0,
+              -8.0
+            ],
+            "size": [
+              6.0,
+              2.0,
+              9.0
+            ],
+            "uv": [
+              23.0,
+              12.0
+            ]
+          }
+        ],
+        "name": "wing1",
+        "parent": null,
+        "pivot": [
+          -3.0,
+          26.0,
+          -8.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -5.7
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -22.0,
+              25.0,
+              -8.0
+            ],
+            "size": [
+              13.0,
+              1.0,
+              9.0
+            ],
+            "uv": [
+              16.0,
+              24.0
+            ]
+          }
+        ],
+        "name": "wingtip1",
+        "parent": null,
+        "pivot": [
+          -9.0,
+          26.0,
+          -8.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -5.7
+        ]
+      },
+      {
+        "META_BoneType": "base",
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -4.0,
+              22.0,
+              -12.0
+            ],
+            "size": [
+              7.0,
+              3.0,
+              5.0
+            ],
+            "uv": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": true,
+            "origin": [
+              3.0,
+              24.0,
+              -13.0
+            ],
+            "size": [
+              2.0,
+              1.0,
+              6.0
+            ],
+            "uv": [
+              24.0,
+              0.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -6.0,
+              24.0,
+              -13.0
+            ],
+            "size": [
+              2.0,
+              1.0,
+              6.0
+            ],
+            "uv": [
+              24.0,
+              0.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -4.0,
+              22.0,
+              -14.0
+            ],
+            "size": [
+              3.0,
+              1.0,
+              2.0
+            ],
+            "uv": [
+              19.0,
+              0.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": true,
+            "origin": [
+              0.0,
+              22.0,
+              -14.0
+            ],
+            "size": [
+              3.0,
+              1.0,
+              2.0
+            ],
+            "uv": [
+              19.0,
+              0.0
+            ]
+          }
+        ],
+        "name": "head",
+        "parent": null,
+        "pivot": [
+          0.0,
+          23.0,
+          -7.0
+        ],
+        "rotation": [
+          11.5,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -2.0,
+              24.0,
+              1.0
+            ],
+            "size": [
+              3.0,
+              2.0,
+              6.0
+            ],
+            "uv": [
+              3.0,
+              20.0
+            ]
+          }
+        ],
+        "name": "tail",
+        "parent": null,
+        "pivot": [
+          0.0,
+          26.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -1.0,
+              24.5,
+              7.0
+            ],
+            "size": [
+              1.0,
+              1.0,
+              6.0
+            ],
+            "uv": [
+              4.0,
+              29.0
+            ]
+          }
+        ],
+        "name": "tailtip",
+        "parent": null,
+        "pivot": [
+          0.0,
+          25.5,
+          7.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "rigtype": null,
+    "textureheight": 64,
+    "texturewidth": 64
+  }
+}

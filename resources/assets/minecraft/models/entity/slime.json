@@ -1,0 +1,193 @@
+{
+  "geometry.slime": {
+    "META_ModelVersion": "1.0.6",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationDontShowArmor": false,
+    "animationInvertedCrouch": false,
+    "animationNoHeadBob": false,
+    "animationSingleArmAnimation": false,
+    "animationSingleLegAnimation": false,
+    "animationStationaryLegs": false,
+    "animationStatueOfLibertyArms": false,
+    "animationUpsideDown": false,
+    "bones": [
+      {
+        "META_BoneType": null,
+        "cubes": [
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -2.0,
+              1.0,
+              -3.0
+            ],
+            "size": [
+              4.0,
+              2.0,
+              6.0
+            ],
+            "uv": [
+              0.0,
+              16.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -1.0,
+              3.0008,
+              0.0
+            ],
+            "size": [
+              2.0,
+              3.0,
+              0.0
+            ],
+            "uv": [
+              34.0,
+              21.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -1.0,
+              2.0,
+              -1.5
+            ],
+            "size": [
+              2.0,
+              2.0,
+              0.0
+            ],
+            "uv": [
+              30.0,
+              22.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -1.0,
+              3.0008,
+              1.5
+            ],
+            "size": [
+              2.0,
+              2.0,
+              0.0
+            ],
+            "uv": [
+              38.0,
+              22.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -0.0008,
+              1.0008,
+              -2.5
+            ],
+            "size": [
+              0.0,
+              6.0,
+              5.0
+            ],
+            "uv": [
+              20.0,
+              13.0
+            ]
+          },
+          {
+            "inflate": 0.0,
+            "mirror": false,
+            "origin": [
+              -3.5008,
+              0.4992,
+              -3.5
+            ],
+            "size": [
+              7.0,
+              1.0,
+              7.0
+            ],
+            "uv": [
+              32.0,
+              8.0
+            ]
+          }
+        ],
+        "name": "cube",
+        "parent": null,
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [],
+        "name": "eye0",
+        "parent": null,
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [],
+        "name": "eye1",
+        "parent": null,
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "META_BoneType": null,
+        "cubes": [],
+        "name": "mouth",
+        "parent": null,
+        "pivot": [
+          0.0,
+          24.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "rigtype": null,
+    "textureheight": 32,
+    "texturewidth": 64
+  }
+}
