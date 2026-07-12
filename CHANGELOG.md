@@ -1,2 +1,2 @@
-- Fixed an issue where the resource pack would fail to load on some versions before 1.21.2.
-- Minimega: Added player bar textures.
+- The lily pad texture is no longer affected by the biome tint, matching Legacy Console Edition.
+- Fixed an issue where the quartz pillar side and purpur pillar side textures were missing on 26.2.
