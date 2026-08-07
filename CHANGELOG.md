@@ -1,2 +1,1 @@
-- The lily pad texture is no longer affected by the biome tint, matching Legacy Console Edition.
-- Fixed an issue where the quartz pillar side and purpur pillar side textures were missing on 26.2.
+- Added textures for the Chaos Cubed drop.
