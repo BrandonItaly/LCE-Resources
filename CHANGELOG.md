@@ -1,2 +1,1 @@
-- Fixed an issue where the quartz pillar side and purpur pillar side textures were missing on 26.2.
-- Legacy4J: Updated the Steve texture in the default skin pack, matching Legacy Console Edition.
+- Added textures for the Chaos Cubed drop.
