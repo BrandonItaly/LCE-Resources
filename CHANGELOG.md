@@ -1,7 +1,2 @@
-- Added support for 26.2:
-    - Updated core shaders.
-    - Updated the bed model, matching Bedrock and Legacy Console Edition.
-- Fixed an issue where chests would appear on Donkeys and Mules, even if they didn't have a chest equipped.
-- Fixed an issue where chests would render incorrectly when using the Better Block Entities mod.
-- Fixed an issue where the resource pack would fail to load on some versions before 1.21.2.
-- Minimega: Added player bar textures.
+- Added textures for the Chaos Cubed drop.
+- Added textures for the Tiny Takeover drop.

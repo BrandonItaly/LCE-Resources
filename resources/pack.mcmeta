@@ -106,9 +106,9 @@
   },
   "meta": {
     "converted_from": "bedrock",
-    "conversion_date": "2026-06-21T03:31:48.115Z",
+    "conversion_date": "2026-08-20T01:23:08.285Z",
     "original_uuid": "69afd52e-1e29-4617-81a9-44ce1157ce8a",
-    "min_engine_version": "1.21.130",
-    "original_version": "1.0.80"
+    "min_engine_version": "1.26.30",
+    "original_version": "1.0.85"
   }
 }
