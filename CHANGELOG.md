@@ -1,1 +1,1 @@
-- Added textures for the Chaos Cubed drop.
+- Legacy4J: Added additional sprites.
