@@ -1,6 +1,8 @@
 {
   "animation": {
-    "frametime": 4,
-    "interpolate": true
+    "frametime": 2
+  },
+  "texture": {
+    "alpha_cutoff_bias": 0.1
   }
 }

@@ -1,0 +1,82 @@
+[
+  {
+    "index": 0,
+    "optionsMapSprite": "legacy:icon/map/player_0",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 1,
+    "optionsMapSprite": "legacy:icon/map/player_1",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 2,
+    "optionsMapSprite": "legacy:icon/map/player_2",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 3,
+    "optionsMapSprite": "legacy:icon/map/player_3",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 4,
+    "optionsMapSprite": "legacy:icon/map/player_4",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 5,
+    "optionsMapSprite": "legacy:icon/map/player_5",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 6,
+    "optionsMapSprite": "legacy:icon/map/player_6",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 7,
+    "optionsMapSprite": "legacy:icon/map/player_7",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 8,
+    "optionsMapSprite": "legacy:icon/map/player_8",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 9,
+    "optionsMapSprite": "legacy:icon/map/player_9",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 10,
+    "optionsMapSprite": "legacy:icon/map/player_10",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 11,
+    "optionsMapSprite": "legacy:icon/map/player_11",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 12,
+    "optionsMapSprite": "legacy:icon/map/player_12",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 13,
+    "optionsMapSprite": "legacy:icon/map/player_13",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 14,
+    "optionsMapSprite": "legacy:icon/map/player_14",
+    "color": "#FFFFFF"
+  },
+  {
+    "index": 15,
+    "optionsMapSprite": "legacy:icon/map/player_15",
+    "color": "#FFFFFF"
+  }
+]

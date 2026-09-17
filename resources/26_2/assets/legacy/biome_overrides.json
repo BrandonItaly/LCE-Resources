@@ -1,0 +1,9 @@
+{
+  "overrides": {
+    "sulfur_caves": {
+      "water_color": "#6dbfbd",
+      "water_fog_color": "#5faaa8",
+      "water_transparency": 1.0
+    }
+  }
+}
