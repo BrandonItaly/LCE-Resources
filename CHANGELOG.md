@@ -1,4 +1,10 @@
+New textures have been added to cover content released since the Festive Mash-up’s Bedrock discontinuation, courtesy of the [Festive Mash-up Patch team](https://github.com/BrandonItaly/LCE-Resources/blob/festive/resources/CREDITS.md).
+
 ## Additions:
+
+- Added support for 26.3:
+    - Updated core shaders.
+    - Updated trim color palette texture paths. 
 
 ### Entities:
 - Baby mobs
