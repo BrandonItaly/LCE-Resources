@@ -1,1 +1,1 @@
-- Legacy4J: Added additional sprites.
+- Added support for 26.3

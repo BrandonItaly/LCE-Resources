@@ -1,5 +1,3 @@
-#version 150
-
 const vec3 black = vec3(0, 0, 0);
 
 const vec3 dark_blue = vec3(0, 0, 0.667);
