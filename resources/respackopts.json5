@@ -1,0 +1,14 @@
+{
+    id: "plasticTexturePack",
+    version: 13,
+    capabilities: [
+        "FileFilter",
+    ],
+    conf: {
+        textColorShaders: {
+            type: "boolean",
+            default: true,
+            reloadType: "Resource",
+        },
+    },
+}
