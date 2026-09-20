@@ -1,2 +1,3 @@
-- Added support for 26.3.
-- Added textures for the Chaos Cubed drop.
+- Added support for the Respackopts mod
+- Respackopts: Added an option to disable text color shaders
+- Fixed an issue where the resin armor trim palette was missing on 26.3
