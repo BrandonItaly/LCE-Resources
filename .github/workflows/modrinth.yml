@@ -109,6 +109,7 @@ jobs:
             raised(optional)
             entity-model-features(optional)
             entitytexturefeatures(optional)
+            respackopts(optional)
           
           # Update these to match the Minecraft versions you support
           game-versions: |
@@ -132,5 +133,6 @@ jobs:
             raised(optional)
             entity-model-features(optional)
             entity-texture-features-fabric(optional)
+            respackopts(optional)
           game-versions: |
             >=1.20.2
