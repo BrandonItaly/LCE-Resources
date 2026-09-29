@@ -37,16 +37,6 @@
       }
     ]
   },
-  "music.end": {
-    "category": "music",
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/45_solitude",
-        "stream": true
-      }
-    ]
-  },
   "music.game": {
     "category": "music",
     "replace": true,

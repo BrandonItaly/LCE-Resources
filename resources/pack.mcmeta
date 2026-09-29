@@ -101,12 +101,30 @@
           88,
           88
         ]
+      },
+      {
+        "directory": "26_3",
+        "min_format": 97,
+        "max_format": 999,
+        "formats": [
+          97,
+          999
+        ]
+      },
+      {
+        "directory": "26_3_shaders",
+        "min_format": 97,
+        "max_format": 97,
+        "formats": [
+          97,
+          97
+        ]
       }
     ]
   },
   "meta": {
     "converted_from": "bedrock",
-    "conversion_date": "2026-06-21T02:04:04.055Z",
+    "conversion_date": "2026-09-29T10:25:35.608Z",
     "original_uuid": "30e96628-1a60-4c07-aec1-b34c1664cdf4",
     "min_engine_version": "1.21.40",
     "original_version": "1.0.76"
