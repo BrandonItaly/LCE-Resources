@@ -1,2 +1,4 @@
-- Added textures for the Chaos Cubed drop.
-- Added textures for the Tiny Takeover drop.
+- Added support for 26.3
+- Added textures for the Wilderness Bound drop
+- Added support for the Respackopts mod
+- Respackopts: Added an option to disable text color shaders
